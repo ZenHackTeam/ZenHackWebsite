@@ -15,16 +15,16 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx1 border-bottom border-zx1" href="/" role="button">Home</a></h5>
+                    <h5><a class="nav-link text-zx1 {% if page.menu == 'home' %}border-bottom border-zx1{% endif %}" href="/" role="button">Home</a></h5>
                 </li>
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx2" href="/events" role="button">Events</a></h5>
+                    <h5><a class="nav-link text-zx2 {% if page.menu == 'events' %}border-bottom border-zx2{% endif %}" href="/events" role="button">Events</a></h5>
                 </li>
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx3" href="/learning" role="button">Learning</a></h5>
+                    <h5><a class="nav-link text-zx3 {% if page.menu == 'learning' %}border-bottom border-zx3{% endif %}" href="/learning" role="button">Learning</a></h5>
                 </li>
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx4" href="/ctf" role="button">CTFs</a></h5>
+                    <h5><a class="nav-link text-zx4 {% if page.menu == 'ctfs' %}border-bottom border-zx4{% endif %}" href="/ctf" role="button">CTFs</a></h5>
                 </li>
 
             </ul>
