@@ -40,10 +40,14 @@ menu: home
 
     <div class="row justify-content-center mt-5">
         <div class="col-6 col-lg-5 text-center">
-            <img src="images/unige.png" class="w-50">
+            <a href="https://unige.it/it/">
+                <img src="images/unige.png" class="w-50">
+            </a>
         </div>
         <div class="col-6 col-lg-5 text-center">
-            <img src="images/dibris.png" class="w-50">
+            <a href="https://www.dibris.unige.it/">
+                <img src="images/dibris.png" class="w-50">
+            </a>
         </div>
     </div>
 
@@ -88,11 +92,17 @@ menu: home
         <div class="col-md-3 d-none d-md-block align-items-center justify-content-center mt-5">
 
             <div class="col-12 text-center">
-                <img src="images/members/{{member.nickname}}.jpg" class="text-center rounded w-75 h-auto border border-white">
+                <img src="images/members/{{member.nickname}}.jpg"
+                    class="text-center rounded w-75 h-auto border border-white">
             </div>
             <div class="col-12 text-center">
                 <h5 class="my-1 mt-3">{{member.name}}</h5>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+                <p class="my-1">
+                    {% for category in member.ctf %}
+                        <span class="badge border-white badge-{{category}}">{{category}}</span>
+                    {% endfor %}
+                </p>
                 <p class="my-1">{{member.description}}</p>
             </div>
         </div>
@@ -100,11 +110,17 @@ menu: home
         <div class="col-12 d-flex d-md-none align-items-center justify-content-center mt-3">
 
             <div class="col-3 text-center">
-                <img src="images/members/{{member.nickname}}.jpg" class="text-center rounded w-100 h-auto border border-white">
+                <img src="images/members/{{member.nickname}}.jpg"
+                    class="text-center rounded w-100 h-auto border border-white">
             </div>
             <div class="col-9 text-left">
                 <h5 class="my-1 mt-3">{{member.name}}</h5>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+                <p class="my-1">
+                    {% for category in member.ctf %}
+                        <span class="badge border-white badge-{{category}}">{{category}}</span>
+                    {% endfor %}
+                </p>
                 <p class="my-1">{{member.description}}</p>
             </div>
         </div>
