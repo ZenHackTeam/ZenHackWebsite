@@ -6,29 +6,43 @@ menu: ctfs
 
 <div class="container py-5">
 
-    <div class="row justify-content-center">
-        <div class="col-12 col-lg-10 border-bottom border-zx4">
+    <div class="row justify-content-center mb-4">
+        <div class="col-12 col-lg-8 border-bottom border-zx4">
             <h3 class="text-zx4">Challenge Writeups</h3>
         </div>
     </div>
 
-    <div class="row justify-content-center">
-        <div class="col-12 col-lg-10 mt-3">
-            Writeups?
+    {% assign posts = site.posts | where:"writeups", "true" %}
+    {% for post in posts %}
+    <div class="row justify-content-center mt-2">
+        <div class="col-12 col-lg-8">
+            <div>
+                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time>
+                <a class='font-weight-bold ml-3' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+                    {{post.ctf}} - {{post.challenge}}
+                </a>
+                <div class="float-right">
+                    {% for category in post.categories %}
+                    <span class="badge border-white badge-{{category}}">{{category}}</span>
+                    {% endfor %}
+
+                </div>
+            </div>
         </div>
     </div>
+    {% endfor %}
 
     {% assign years = "2020|2019|2018|2017" | split: "|" %}
     {% for year in years %}
 
     <div class="row justify-content-center mt-3">
-        <div class="col-12 col-lg-10 border-bottom border-zx4">
+        <div class="col-12 col-lg-8 border-bottom border-zx4">
             <h3 class="text-zx4">{{year}} CTFs</h3>
         </div>
     </div>
 
     <div class="row justify-content-center mt-3">
-        <div class="col-12 col-lg-10">
+        <div class="col-12 col-lg-8">
             <ul>
                 {% for ctf in site.data.ctf[year] %}
                 <li>

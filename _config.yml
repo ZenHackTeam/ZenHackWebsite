@@ -30,6 +30,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: "_posts/news"
+    values:
+      news: "true"
+  - scope:
+      path: "_posts/writeups"
+    values:
+      writeups: "true"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
