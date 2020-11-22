@@ -1,0 +1,19 @@
+[
+    {"name": "Simone Aonzo",        "nickname": "packmad",      "description": "PostDoc @ EURECOM",                 "link": "#"},
+    {"name": "Andrea Basso",        "nickname": "r0gu3",        "description": "Descrizione",                       "link": "#"},
+    {"name": "Andrea Canepa",       "nickname": "A_725_K",      "description": "Descrizione",                       "link": "#"},
+    {"name": "Emilio Cafè Nunes",   "nickname": "shinil35",     "description": "Descrizione",                       "link": "#"},
+    {"name": "Luca Demetrio",       "nickname": "zangobot",     "description": "PhD student @ DIBRIS",                       "link": "#"},
+    {"name": "Gaspare Ferraro",     "nickname": "GaspareG",     "description": "Descrizione",                       "link": "#"},
+    {"name": "Tiziano Firpo",       "nickname": "firpo7",       "description": "Descrizione",                       "link": "#"},
+    {"name": "Giovanni Lagorio",    "nickname": "zxgio",        "description": "Assistant Professor @ DIBRIS",      "link": "#"},
+    {"name": "Lorenzo Leonardini",  "nickname": "pianka",       "description": "Descrizione",                       "link": "#"},
+    {"name": "Enrico Russo",        "nickname": "enriquez",     "description": "PhD student @ DIBRIS",                       "link": "#"},
+    {"name": "Lorenzo Maffia",      "nickname": "maff1t",       "description": "Descrizione",                       "link": "#"},
+    {"name": "Giovanni Minotti",    "nickname": "Giotino",      "description": "Descrizione",                       "link": "#"},
+    {"name": "Francesco Picasso",   "nickname": "dfirfpi",      "description": "Descrizione",                       "link": "#"},
+    {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "Descrizione",                       "link": "#"},
+    {"name": "Alessio Ravera",      "nickname": "alerave96",    "description": "Descrizione",                       "link": "#"},
+    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Descrizione",                       "link": "#"},
+    {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "PhD student @ DIBRIS",                       "link": "#"}
+]

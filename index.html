@@ -1,0 +1,124 @@
+---
+title: ZenHack Team
+layout: default
+---
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 text-center">
+            <img class="w-50 h-auto" src="images/zenhack.png">
+        </div>
+    </div>
+
+    <!--
+        <hr class="my-5 bg-white">
+        -->
+
+    <!-- ZenHack -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-10 border-bottom border-zx1">
+            <h3 class="text-zx1">About ZenHack</h3>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-lg-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, elementum in ipsum a, dictum
+            vulputate arcu. Donec nunc quam, varius eget euismod sit amet, convallis eget metus. Nam nec mi lacus.
+            In faucibus, arcu eget semper euismod, metus justo porttitor quam, ut blandit erat odio non libero.
+            Etiam fermentum, purus in rhoncus efficitur, <a href="#">eros lectus</a> varius velit, eu convallis orci
+            libero ac diam.
+            Suspendisse vel bibendum purus. Donec dapibus vehicula tristique. Etiam ullamcorper facilisis lacus non
+            porta. Sed semper hendrerit laoreet. Nam leo ante, vehicula vel dui quis, euismod facilisis lorem.
+            Aenean aliquam mauris quis odio aliquam placerat. Aliquam non est orci. Sed at metus dictum, fermentum
+            nibh nec, aliquet nisl. Donec id turpis imperdiet, pharetra nisi eu, tincidunt enim.
+
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-6 col-lg-5 text-center">
+            <img src="images/unige.png" class="w-50">
+        </div>
+        <div class="col-6 col-lg-5 text-center">
+            <img src="images/dibris.png" class="w-50">
+        </div>
+    </div>
+
+
+    <!-- CTFs -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-10 border-bottom border-zx2">
+            <h3 class="text-zx2">About CTFs</h3>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-lg-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, elementum in ipsum a,
+            dictum
+            vulputate arcu. Donec nunc quam, varius eget euismod sit amet, convallis eget metus. Nam nec mi
+            lacus.
+            In faucibus, arcu eget semper euismod, metus justo porttitor quam, ut blandit erat odio non libero.
+            Etiam fermentum, purus in rhoncus efficitur, <a href="#">eros lectus</a> varius velit, eu convallis
+            orci
+            libero ac diam.
+            Suspendisse vel bibendum purus. Donec dapibus vehicula tristique. Etiam ullamcorper facilisis lacus
+            non
+            porta. Sed semper hendrerit laoreet. Nam leo ante, vehicula vel dui quis, euismod facilisis lorem.
+            Aenean aliquam mauris quis odio aliquam placerat. Aliquam non est orci. Sed at metus dictum,
+            fermentum
+            nibh nec, aliquet nisl. Donec id turpis imperdiet, pharetra nisi eu, tincidunt enim.
+        </div>
+    </div>
+
+    <!-- Members -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-10 border-bottom border-zx3">
+            <h3 class="text-zx3">Members</h3>
+        </div>
+    </div>
+
+    <div class="row">
+
+        {% for member in site.data.members %}
+
+        <div class="col-4 col-lg-3 d-block align-items-center justify-content-center mt-5">
+
+            <div class="col-12 text-center">
+                <img src="images/members/{{member.nickname}}.jpg" class="text-center rounded w-50 h-auto border border-white">
+            </div>
+            <div class="col-12 text-center">
+                <h5 class="my-1 mt-3">{{member.name}}</h5>
+                <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+                <p class="my-1">{{member.description}}</p>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- Follow -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-10 border-bottom border-zx4">
+            <h3 class="text-zx4">Contact us</h3>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-lg-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus erat, elementum in ipsum a,
+            dictum
+            vulputate arcu. Donec nunc quam, varius eget euismod sit amet, convallis eget metus. Nam nec mi
+            lacus.
+            In faucibus, arcu eget semper euismod, metus justo porttitor quam, ut blandit erat odio non libero.
+            Etiam fermentum, purus in rhoncus efficitur, <a href="#">eros lectus</a> varius velit, eu convallis
+            orci
+            libero ac diam.
+        </div>
+    </div>
+
+</div>
