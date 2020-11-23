@@ -78,6 +78,7 @@ div.highlighter-rouge, pre:not(.highlight) { /* pre is fallback */
     border: solid 1px var(--base015);
     border-radius: 6px;
     margin-bottom: 16px;
+    background: var(--base02);
 }
 pre:not(.highlight) {
     color: #d0d0d0 !important;
