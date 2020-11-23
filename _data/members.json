@@ -14,6 +14,6 @@
     {"name": "Francesco Picasso",   "nickname": "dfirfpi",      "description": "CTO @ Reality Net",             "link": "#", "ctf": ["forensic"]},
     {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "Student @ UniGe",               "link": "#", "ctf": []},
     {"name": "Alessio Ravera",      "nickname": "alerave96",    "description": "Student @ UniGe",               "link": "#", "ctf": ["rev", "pwn"]},
-    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",               "link": "#", "ctf": ["network", "forensic"]},
+    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",               "link": "#", "ctf": ["guessing"]},
     {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "PhD student @ DIBRIS",          "link": "#", "ctf": ["web"]}
 ]
