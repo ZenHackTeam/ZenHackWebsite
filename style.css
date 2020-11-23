@@ -83,3 +83,10 @@ pre:not(.highlight) {
     color: #d0d0d0 !important;
     padding-bottom: 16px;
 }
+
+blockquote {
+    border-left: solid 6px var(--base01);
+    padding-left: 20px;
+    font-style: italic;
+    color: var(--base00);
+}
