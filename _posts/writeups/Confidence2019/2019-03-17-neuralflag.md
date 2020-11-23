@@ -1,11 +1,12 @@
 ---
-title: Confidence 2019 - MISC - neural flag
 author: zangobot
-layout: writeup
-category: ctf
+ctf: Confidence 2019
+challenge: neural flag
+categories: [advml]
 tags: [ ctf, challenge, write-up, machine learning, adversarial ]
-date: 2019-3-17 
+layout: writeup
 ---
+
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 Another week, another neural CTF to pwn!

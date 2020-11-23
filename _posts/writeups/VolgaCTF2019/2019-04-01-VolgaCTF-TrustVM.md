@@ -1,11 +1,12 @@
 ---
-layout: writeup
-title:  "[Write-up] Reversing a 512 bit Virtual Machine ~ TrustVM ~ VolgaCTF 2019"
-date:   2019-04-01
 author: Maff1t
-category: ctf
-tags: [ ctf, challenge, programming, write-up ]
+ctf: VolgaCTF 2019
+challenge: TrustVM
+categories: [rev]
+tags: [ ctf, challenge, write-up, reverse ]
+layout: writeup
 ---
+
   - CTF NAME: [VolgaCTF 2019](https://q.2019.volgactf.ru/)
   - Category: Reversing
   - Files: [TrustVM](http://Maff1t.github.io/binary/TrustVM.zip)

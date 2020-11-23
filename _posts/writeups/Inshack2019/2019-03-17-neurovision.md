@@ -1,10 +1,11 @@
 ---
-title: INS'HACK 2019 - MISC - neurovision
 author: zangobot
-layout: writeup
-category: ctf
+ctf: INS'HACK 2019
+challenge: neurovision
+categories: [advml]
 tags: [ ctf, challenge, write-up, machine learning, adversarial ]
 date: 2019-3-17 
+layout: writeup
 ---
 Another day, another neural CTF to solve!
 This challenge is pretty straight-forward: a keras model is given as only file of the challenge.

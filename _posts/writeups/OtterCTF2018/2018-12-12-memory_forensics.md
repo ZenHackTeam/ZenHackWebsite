@@ -1,10 +1,10 @@
 ---
-title: OtterCTF -  Memory Forensics
 author: Giotino - Killua 
-layout: writeup
-category: ctf
+ctf: OtterCTF
+challenge: Memory Forensics
+categories: [forensic]
 tags: [ ctf, challenge, write-up, forensics, volatility ]
-date: 2018-12-12 
+layout: writeup
 ---
 
 In this write up we will discuss all the moemry forensic challenges, and you can find [here](https://mega.nz/#!sh8wmCIL!b4tpech4wzc3QQ6YgQ2uZnOmctRZ2duQxDqxbkWYipQ) all the memory dumps produced using [volatility](https://www.volatilityfoundation.org/) (and strings command :P). 

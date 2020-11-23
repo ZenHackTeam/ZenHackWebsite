@@ -1,9 +1,10 @@
 ---
 layout: writeup
-title:  "[PWN]Hackcon'18 - WarChange"
+ctf: HackCon'18
+challenge: "WarChange"
 author: Ringr0p
 date:   2018-08-17
-category: ctf
+categories: [pwn]
 tags: [ ctf, challenge, programming, write-up ]
 ---
   - CTF NAME: [Hackcon 2018](https://hackcon.in/)

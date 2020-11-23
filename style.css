@@ -65,6 +65,7 @@ a:visited {
 .badge-forensic { background-color: #8B00FF !important; }
 .badge-advml    { background-color: #ffc0cb !important; }
 .badge-guessing { background-color: #000000 !important; }
+.badge-misc     { background-color: #000000 !important; }
 
 .text-pos1 { color: gold !important; }
 .text-pos2 { color: silver !important; }

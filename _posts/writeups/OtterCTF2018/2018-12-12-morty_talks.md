@@ -1,10 +1,10 @@
 ---
-title: OtterCTF - Morty Talks
 author: enriquez - zangobot
-layout: writeup
-category: ctf
+ctf: OtterCTF
+challenge: Morty Talks
+categories: [forensic]
 tags: [ ctf, challenge, write-up, forensics ]
-date: 2018-12-12 
+layout: writeup
 ---
 
 The flag is encrypted inside a pcap file, the encryption algorithm is given as a python program:

@@ -1,8 +1,9 @@
 ---
-title: HackCon'18 - Diversity
+ctf: HackCon'18
+challenge: Diversity
 author: pianka
 layout: writeup
-category: ctf
+categories: [crypto]
 tags: [ ctf, challenge, crypto, write-up ]
 date: 2018-8-17
 ---
