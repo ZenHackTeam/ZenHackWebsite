@@ -26,12 +26,7 @@
 body {
   background-color: var(--base03);
   color: var(--base0);
-}
-
-
-* {
   color: var(--base1);
-  border-color: var(--base0);
 }
 
 a,
@@ -69,3 +64,8 @@ a:visited {
 .badge-ppc      { background-color: #2E2B5F !important; }
 .badge-forensic { background-color: #8B00FF !important; }
 .badge-advml    { background-color: #ffc0cb !important; }
+.badge-guessing { background-color: #000000 !important; }
+
+.text-pos1 { color: gold !important; }
+.text-pos2 { color: silver !important; }
+.text-pos3 { color: brown !important; }
