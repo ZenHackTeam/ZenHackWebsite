@@ -52,6 +52,7 @@ menu: ctfs
         </div>
 
         <div class="col-12 text-center">
+            {{post.author}} - 
             {% for category in post.categories %}
             <span class="badge border-white badge-{{category}}">{{category}}</span>
             {% endfor %}
