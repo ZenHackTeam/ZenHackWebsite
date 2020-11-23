@@ -77,7 +77,7 @@ menu: ctfs
                 {% for ctf in site.data.ctf[year] %}
                 <li>
                     <span class="text-monospace">{{ctf.from}} - {{ctf.to}}</span>: <a
-                        href="{{ctf.link}}">{{ctf.name}}</a> - <span class="text-pos{{ctf.position}}">Ranked
+                        href="{{ctf.link}}">{{ctf.name}}</a> - <span>Ranked
                         <b>#{{ctf.position}}</b> out of {{ctf.teams}} </span>
                 </li>
                 {% endfor %}
@@ -92,7 +92,7 @@ menu: ctfs
         <div class="col-12 d-block d-lg-none text-center">
             <a href="{{ctf.link}}">{{ctf.name}}</a>
         </div>
-        <div class="col-12 d-block d-lg-none text-center text-pos{{ctf.position}}">
+        <div class="col-12 d-block d-lg-none text-center">
             Ranked <b>#{{ctf.position}}</b> out of {{ctf.teams}}
         </div>
         {% endfor %}

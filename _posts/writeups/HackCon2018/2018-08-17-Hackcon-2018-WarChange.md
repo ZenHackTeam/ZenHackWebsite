@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: writeup
 title:  "[PWN]Hackcon'18 - WarChange"
 author: Ringr0p
 date:   2018-08-17

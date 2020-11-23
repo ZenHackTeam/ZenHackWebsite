@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: writeup
 title:  "[Write-up] Reversing a 512 bit Virtual Machine ~ TrustVM ~ VolgaCTF 2019"
 date:   2019-04-01
 author: Maff1t
