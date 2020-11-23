@@ -2,7 +2,7 @@
 author: Giotino - Killua 
 ctf: OtterCTF
 challenge: Memory Forensics
-categories: [forensic]
+categories: [forensics]
 tags: [ ctf, challenge, write-up, forensics, volatility ]
 layout: writeup
 ---

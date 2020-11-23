@@ -2,8 +2,8 @@
 author: enriquez - zangobot
 ctf: OtterCTF
 challenge: Morty Talks
-categories: [forensic]
-tags: [ ctf, challenge, write-up, forensics ]
+categories: [forensics]
+tags: [ ctf, challenge, write-up, forensics]
 layout: writeup
 ---
 
