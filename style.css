@@ -58,7 +58,7 @@ a:visited {
 .badge { color: #ffffff; }
 .badge-web      { background-color: #FF0000 !important; }
 .badge-crypto   { background-color: #FF7F00 !important; }
-.badge-rev      { background-color: #00FFFF !important; }
+.badge-rev      { background-color: #00AAAA !important; }
 .badge-pwn      { background-color: #89c541 !important; }
 .badge-network  { background-color: #0000FF !important; }
 .badge-ppc      { background-color: #2E2B5F !important; }
