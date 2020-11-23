@@ -58,11 +58,11 @@ a:visited {
 .badge { color: #ffffff; }
 .badge-web      { background-color: #FF0000 !important; }
 .badge-crypto   { background-color: #FF7F00 !important; }
-.badge-rev      { background-color: #B58900 !important; }
+.badge-rev      { background-color: #00FFFF !important; }
 .badge-pwn      { background-color: #89c541 !important; }
 .badge-network  { background-color: #0000FF !important; }
 .badge-ppc      { background-color: #2E2B5F !important; }
-.badge-forensic { background-color: #8B00FF !important; }
+.badge-forensics{ background-color: #8B00FF !important; }
 .badge-advml    { background-color: #ffc0cb !important; }
 .badge-guessing { background-color: #000000 !important; }
 .badge-misc     { background-color: #000000 !important; }
