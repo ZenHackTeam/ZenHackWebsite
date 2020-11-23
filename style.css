@@ -1,6 +1,7 @@
 :root {
   --base03: #002b36;
   --base02: #073642;
+  --base015: #264b55;
   --base01: #586e75;
   --base00: #657b83;
   --base0: #839496;
@@ -70,3 +71,15 @@ a:visited {
 .text-pos1 { color: gold !important; }
 .text-pos2 { color: silver !important; }
 .text-pos3 { color: brown !important; }
+
+.highlight, code span.w { background: inherit !important; }
+div.highlighter-rouge, pre:not(.highlight) { /* pre is fallback */
+    padding: 16px 20px 0 20px;
+    border: solid 1px var(--base015);
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+pre:not(.highlight) {
+    color: #d0d0d0 !important;
+    padding-bottom: 16px;
+}

@@ -19,12 +19,12 @@ I spent all of my time on this amazing reversing challenge, and we solved it 2 h
 
 ~ Intro to the challenge
 -
-We were provided of three different files: 
- - reverse->  a 64 bit executable 
+We were provided of three different files:
+ - reverse->  a 64 bit executable
  - encrypt -> a strange binary file
  - data.enc -> An encrypted file, that obviously contains the flag
 
-This executable takes two arguments: "progname" and "filetoprocess". 
+This executable takes two arguments: "progname" and "filetoprocess".
 You can encrypt a file to watch the output. Let's launch:
 ```
 ./reverse encrypt cleartextfile
@@ -36,7 +36,7 @@ on a simple file having 4 'a'; the output is a file called "cleartextfile.enc" t
 00000020: 2b1e deb0 0015 ce8d 60aa 3386 1d62 55dd  +.......`.3..bU.
 00000030: 9e8e 28ef 0165 0ae8 86e5 4273 f8ac f265  ..(..e....Bs...e
 
-``` 
+```
 
 This is an overview of the main function in IDA:
 
@@ -77,7 +77,7 @@ Instruction 0xA ~ Store
 -
 ![Instruction 0xA](https://Maff1t.github.io/images/instruction%20a.png)
 
-This is a basic instruction, used many times by "encrypt" program. It is used to store the next 0x40 bytes of the interpreted program, into the virtual memory of the interpreter, at offset "x", where "x" is a parameter passed in rsi. 
+This is a basic instruction, used many times by "encrypt" program. It is used to store the next 0x40 bytes of the interpreted program, into the virtual memory of the interpreter, at offset "x", where "x" is a parameter passed in rsi.
 All is multiple of 0x40 because it's a 512 bit program, infact the parameter in rsi is multiplied by 2^6 (shl rsi, 6)!
 
 After three 0 initialization of memory, the program do a **"0x00dA"** instruction, that store a lot of bytes into memory. Those bytes rapresent the **initial xor key** used to cypher the cleartext passed as argument.
@@ -95,9 +95,9 @@ Instruction 0x8 ~ Crypt
 -
 ![Instruction 0x8](https://Maff1t.github.io/images/instruction%208.png)
 This is the most important part of the program, that encrypt a 0x40 block of data, with two parameters, that I will call "shift" and "pad", which are stored respetively in RCX and R9.
-The cleartext xored with the initial key, is crypted using 5 and 9 as parameters. 
+The cleartext xored with the initial key, is crypted using 5 and 9 as parameters.
 After a bit of reversing, I defined the encryption function in python in this way:
-```
+```python
 def encr(bytes, offset, shift):
     newinp = [i for i in range (0, 0x40)]
     for i in range (0, 0x40):
@@ -109,7 +109,7 @@ def encr(bytes, offset, shift):
 ```
 After that, my teammate @zxgio, was able to invert this function, and retrive the function to decrypt the block:
 
-```
+```python
 def decr(in_block, offset, shift):
     out_block = [0] * BLOCK_SIZE
     for i in range(BLOCK_SIZE):
@@ -133,9 +133,9 @@ xored2 = xor (cleartext1, xorkey)
 second_crypted_block = crypt(xored2)
 ...and so on
 ```
-```
-Then what we have to do to invert this process is:
 
+Then what we have to do to invert this process is:
+```
 cleartext0 = xor ( decrypt(first_crypted_block, 9, 5), xorkey)
 xorkey = xor (cleartext0, crypt (xorkey, 13, 7))
 cleartext1 = xor (decrypt (second_crypted_block, 9, 5), xorkey)
@@ -147,7 +147,7 @@ You can notice that the xorkey is encrypted with different parameters compared t
 Conclusion
 -
 At the end we ends up with this python script to decrypt the encoded file "data.enc":
-```
+```python
 from __future__ import print_function, division, absolute_import
 import sys
 
@@ -175,7 +175,7 @@ def encr(bytes, offset, shift):
     for i in range (0, 0x40):
         eax = ord(bytes[i]) << (8-shift)
         edx = ord(bytes[(0x3f + i )% 0x40]) >> shift
-        newinp[(offset+i) % 0x40] = chr ( ((eax|edx) & 0xff)) 
+        newinp[(offset+i) % 0x40] = chr ( ((eax|edx) & 0xff))
     return "".join(newinp)
 
 with open('data.enc', 'rb') as inp, open('data.png', 'wb') as out:
@@ -189,7 +189,7 @@ with open('data.enc', 'rb') as inp, open('data.png', 'wb') as out:
         out.write(new_block)
         xorkey = encr(xorkey, 13, 1)
         xorkey = "".join(chr(ord(x1)^ord(x2)) for x1,x2 in zip(xorkey, new_block))
-        
+
 ```
 
 And this is the decrypted file:
@@ -198,4 +198,4 @@ And this is the decrypted file:
 
 Thanks to @zxgio for the great help, it was a great teamwork!
 
-VolgaCTF{y0u_ju5t_rever5ed_a_512_b1t_Virtu4l_Mach1nE}
+`VolgaCTF{y0u_ju5t_rever5ed_a_512_b1t_Virtu4l_Mach1nE}`

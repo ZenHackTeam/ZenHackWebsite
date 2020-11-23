@@ -8,6 +8,7 @@ layout: writeup
 ---
 
 The flag is encrypted inside a pcap file, the encryption algorithm is given as a python program:
+
 ```python
 data = pickle.load(open(r"1.pc", 'rb'))
 KEY = open("key.txt", 'r').read()
@@ -25,7 +26,7 @@ for msg in data:
     p += 2
 ```
 Basically, it opens a file and it xors all the messages contained using a key (which is hidden).
-In fact, only part of the key is used for encrypting the message: 
+In fact, only part of the key is used for encrypting the message:
 
 ```python
 res = KEY[p]

