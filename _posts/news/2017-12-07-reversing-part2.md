@@ -27,7 +27,7 @@ In order to crack the password from those binaries, you need to interact with Ra
 **Want more?** Here you can find [zxgio Radare2 cheatsheet](https://github.com/zxgio/r2-cheatsheet) (for free, of course), which is a useful summary of Radare2 commands. No need to feel lost, just read that sheet!
 
 IOLI Crackme-s were fun to hack, but what about something more difficult?
-Just look up at [Gym](/gym/) section of this website to consider more challenging tasks...
+Just look up at [learning](/learning) section of this website to consider more challenging tasks...
 
 Binary reversing classes are over! Web Security - Part2 is the next lesson to come!
 
