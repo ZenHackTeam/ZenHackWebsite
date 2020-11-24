@@ -40,7 +40,7 @@ on a simple file having 4 'a'; the output is a file called "cleartextfile.enc" t
 
 This is an overview of the main function in IDA:
 
-![Overview](/images/writeups/VolgaCTF2019/trustvm/trustvm_overview.png)
+![Overview](/assets/writeups/VolgaCTF2019/trustvm/trustvm_overview.png)
 
 That's exactly what I was looking for to pack my bags for Russia !
 
@@ -52,7 +52,7 @@ In the first part of the binary, the two files, passed as arguments, are read an
 
 After that, we arrive at this part of the code, where:
 
-![Switch](/images/writeups/VolgaCTF2019/trustvm/switch.png)
+![Switch](/assets/writeups/VolgaCTF2019/trustvm/switch.png)
 
  - Two bytes from the "encrypt" program are read
  - The "Virtual program counter" is incresed of two bytes
@@ -75,25 +75,25 @@ I will walk through the most important instructions interpreted by this "Virtual
 
 Instruction 0xA ~ Store
 -
-![Instruction 0xA](/images/writeups/VolgaCTF2019/trustvm/instruction_a.png)
+![Instruction 0xA](/assets/writeups/VolgaCTF2019/trustvm/instruction_a.png)
 
 This is a basic instruction, used many times by "encrypt" program. It is used to store the next 0x40 bytes of the interpreted program, into the virtual memory of the interpreter, at offset "x", where "x" is a parameter passed in rsi.
 All is multiple of 0x40 because it's a 512 bit program, infact the parameter in rsi is multiplied by 2^6 (shl rsi, 6)!
 
 After three 0 initialization of memory, the program do a **"0x00dA"** instruction, that store a lot of bytes into memory. Those bytes rapresent the **initial xor key** used to cypher the cleartext passed as argument.
 
-![Encrypt program](/images/writeups/VolgaCTF2019/trustvm/encrypt_program.png)
+![Encrypt program](/assets/writeups/VolgaCTF2019/trustvm/encrypt_program.png)
 
 Instruction 0x7 ~ Xor
 -
-![Instruction 7](/images/writeups/VolgaCTF2019/trustvm/instruction_7.png)
+![Instruction 7](/assets/writeups/VolgaCTF2019/trustvm/instruction_7.png)
 
 Instruction 0x7 is used to xor two blocks of 0x40 bytes in memory.
 At first what is xored, is our first block of cleartext, and the xorkey retrived by the program.
 
 Instruction 0x8 ~ Crypt
 -
-![Instruction 0x8](/images/writeups/VolgaCTF2019/trustvm/instruction_8.png)
+![Instruction 0x8](/assets/writeups/VolgaCTF2019/trustvm/instruction_8.png)
 
 This is the most important part of the program, that encrypt a 0x40 block of data, with two parameters, that I will call "shift" and "pad", which are stored respetively in RCX and R9.
 The cleartext xored with the initial key, is crypted using 5 and 9 as parameters.
@@ -195,7 +195,7 @@ with open('data.enc', 'rb') as inp, open('data.png', 'wb') as out:
 
 And this is the decrypted file:
 
-![flag](/images/writeups/VolgaCTF2019/trustvm/data.png)
+![flag](/assets/writeups/VolgaCTF2019/trustvm/data.png)
 
 Thanks to @zxgio for the great help, it was a great teamwork!
 

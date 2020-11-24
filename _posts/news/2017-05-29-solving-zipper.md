@@ -6,7 +6,7 @@ category: challenges
 tags: [ misc, challenge ]
 ---
 
-PlaidCTF 2017, [Zipper](/challs/zipper_50d3dc76dcdfa047178f5a1c19a52118.zip), 50 pts.
+PlaidCTF 2017, [Zipper](/assets/news/zipper/zipper_50d3dc76dcdfa047178f5a1c19a52118.zip), 50 pts.
 
 <!--more-->
 
@@ -64,7 +64,7 @@ Il file ZIP è molto particolare: mette in testa i dati sui file, poi i dati sui
 
 I file ZIP però sono sempre in Little Endian, indipendentemente dall'architettura, in quanto viene definito nel protocollo.
 
-![Zip Format](/static/zip_format.png)
+![Zip Format](/assets/news/zipper/zip_format.png)
 
 ## Soluzione
 
@@ -88,4 +88,4 @@ Huzzah, you have captured the flag:
 PCTF{f0rens1cs_yay}
 ```
 
-Qui potete trovare il file di [Zipper fixed](/challs/zipper_fixed.zip).
+Qui potete trovare il file di [Zipper fixed](/assets/news/zipper/zipper_fixed.zip).

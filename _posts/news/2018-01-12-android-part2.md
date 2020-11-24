@@ -45,17 +45,17 @@ See you next Friday!
 
 `['0x66', '0x6d', '0x63', '0x6a', '0x7f', '0x74', '0x7c', '0x6c', '0x7a', '0x71', '0x6f', '0x6c', '0x7e', '0x76', '0x7c', '0x76', '0x6f', '0x7a', '0x85', '0x72', '0x76', '0x76', '0x7a', '0x94']` ^.^
 
-![alt text](/assets/blog_img/2018-01-12-android-part2/starting.jpg "packmad starts the class")
+![alt text](/assets/news/android_part2/starting.jpg "packmad starts the class")
 * First memorable slide.
 
-![alt text](/assets/blog_img/2018-01-12-android-part2/mitm.jpg "A blackboard.")
+![alt text](/assets/news/android_part2/mitm.jpg "A blackboard.")
 * MITM explained on a blackboard.
 
-![alt text](/assets/blog_img/2018-01-12-android-part2/traffic.jpg "... what does A said?")
+![alt text](/assets/news/android_part2/traffic.jpg "... what does A said?")
 * There are packets in the air!
 
-![alt text](/assets/blog_img/2018-01-12-android-part2/certificate.jpg "Asymmetrical encryption")
+![alt text](/assets/news/android_part2/certificate.jpg "Asymmetrical encryption")
 * Digital certificates are the answer... or maybe not?
 
-![alt text](/assets/blog_img/2018-01-12-android-part2/behind.jpg "See you next time!")
+![alt text](/assets/news/android_part2/behind.jpg "See you next time!")
 * Thank you, see you soon ;-)

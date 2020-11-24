@@ -98,4 +98,4 @@ p.interactive()
 
 And it works ;) !
 
-![placeholder](/images/writeups/HackCon2018/she_sells_sea_shells/flag.png)
+![placeholder](/assets/writeups/HackCon2018/she_sells_sea_shells/flag.png)

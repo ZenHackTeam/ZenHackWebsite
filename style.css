@@ -92,4 +92,4 @@ blockquote {
     color: var(--base00);
 }
 
-.writeup-container img { max-width: 100%; }
+.writeup-container img, .post-container img { max-width: 100%; }

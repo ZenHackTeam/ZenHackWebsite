@@ -30,18 +30,18 @@ For example, use the `strings` command to search for a hardcoded password in the
 Next lesson will cover other aspects of Binary Reversing.
 Until then, practice with Radare2 and have fun!
 
-`++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>>++.++++++.-----------.++++++.++++++++++++++++++++.---------.-----------------.+++.---.+++++++++++++++++.-------------.<<++++++++++++++++++++.>>------.++++++++++.++++++++++.--------------------.++++.+++++.---.----.+++++++++++++++.+++++++++++++.` 
+`++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>>++.++++++.-----------.++++++.++++++++++++++++++++.---------.-----------------.+++.---.+++++++++++++++++.-------------.<<++++++++++++++++++++.>>------.++++++++++.++++++++++.--------------------.++++.+++++.---.----.+++++++++++++++.+++++++++++++.`
 
 O__O
 
-![alt text](/assets/blog_img/2017-12-01-reversing-part1/1.jpg "Radare2")
+![alt text](/assets/news/binary_reversing_part1/1.jpg "Radare2")
 * Radare2 is not an easy task...
 
-![alt text](/assets/blog_img/2017-12-01-reversing-part1/2.jpg "Just do it!")
+![alt text](/assets/news/binary_reversing_part1/2.jpg "Just do it!")
 * Binary reversing is challenging!
 
-![alt text](/assets/blog_img/2017-12-01-reversing-part1/3.jpg "What is that?")
+![alt text](/assets/news/binary_reversing_part1/3.jpg "What is that?")
 * Prof. Lagorio explains how things need to be done.
 
-![alt text](/assets/blog_img/2017-12-01-reversing-part1/4.jpg "Bye!")
+![alt text](/assets/news/binary_reversing_part1/4.jpg "Bye!")
 * Thank you and see you soon!

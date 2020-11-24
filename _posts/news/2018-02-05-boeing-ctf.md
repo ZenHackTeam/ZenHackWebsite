@@ -14,7 +14,7 @@ We prepared four different [categories of challenges](http://www.openctf.com/htm
 Each of these groups has been divided into four levels of difficulty (warmup, easy, medium, hard), plus a *sanity check*
 (have you ever heard of **copy & paste** routine?).
 
-![alt text](/assets/blog_img/2018-02-05-boeing/boeing-challs.png "Challenges")
+![alt text](/assets/news/boeing/boeing-challs.png "Challenges")
 
 We set a time limit of six hours to all the participants to tame this challenge, providing them with [focaccia](https://it.wikipedia.org/wiki/Focaccia), pizza, and so many biscuits!
 
@@ -33,32 +33,32 @@ Happy hacking to everyone ;-)
 
 <!-- flag{Inspection_or_inception?} -->
 
-![alt text](/assets/blog_img/2018-02-05-boeing/armando2.jpg "Fair play!")
+![alt text](/assets/news/boeing/armando2.jpg "Fair play!")
 * Armando explains the rules of the game.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/selfie.jpg "So much yellow...")
+![alt text](/assets/news/boeing/selfie.jpg "So much yellow...")
 * Here we are, in our shiny brand new t-shirts.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/sponsor.jpg "Boeing logo is so nice")
+![alt text](/assets/news/boeing/sponsor.jpg "Boeing logo is so nice")
 * The "Travel Agency" challenge, inspired by our sponsor.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/what.jpg "Who said what?")
+![alt text](/assets/news/boeing/what.jpg "Who said what?")
 * Briefing time!
 
-![alt text](/assets/blog_img/2018-02-05-boeing/break.jpg "It's time for a break")
+![alt text](/assets/news/boeing/break.jpg "It's time for a break")
 * Do you want a coffee?
 
-![alt text](/assets/blog_img/2018-02-05-boeing/workhard2.jpg "H4ck th4t th1ng!")
+![alt text](/assets/news/boeing/workhard2.jpg "H4ck th4t th1ng!")
 * Who will be the winner?
 
-![alt text](/assets/blog_img/2018-02-05-boeing/playoff1.jpg "Playoff time")
+![alt text](/assets/news/boeing/playoff1.jpg "Playoff time")
 * The playoff seen by the eye of the camera.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/maffia.jpg "The winners: part1")
+![alt text](/assets/news/boeing/maffia.jpg "The winners: part1")
 * Lorenzo Maffia, first winner of this edition.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/lucini.jpg "The winners: part2")
+![alt text](/assets/news/boeing/lucini.jpg "The winners: part2")
 * Federico Lucini, second winner of this edition.
 
-![alt text](/assets/blog_img/2018-02-05-boeing/team.jpg "Thank you all!")
+![alt text](/assets/news/boeing/team.jpg "Thank you all!")
 * ZenHack team, Gabriele, Giorgia and Zia Ribba!

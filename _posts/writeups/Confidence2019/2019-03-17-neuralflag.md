@@ -126,4 +126,4 @@ plt.show()
 ```
 The flag is `p4{nn_is_ez}`
 
-You can find all the code [just HERE](/downloads/writeups/Confidence2019/neuralflag/neuralflag.zip), with the code above and the model.
+You can find all the code [just HERE](/assets/writeups/Confidence2019/neuralflag/neuralflag.zip), with the code above and the model.

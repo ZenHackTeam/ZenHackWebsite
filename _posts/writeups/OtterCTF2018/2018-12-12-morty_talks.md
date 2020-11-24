@@ -50,6 +50,6 @@ FINAL_KEY = [ ord(i) for i in 'Morty Smith (voiced by Justin Roiland[1]) \x96 Ri
 ```
 **BUT!** You notice the ```\x96``` char? Well, it is not a single value inside the message, so if you combine the even and odd bytes, those three character will be scrambled across the message, leading to a wrong key.
 
-[Here](/downloads/writeups/OtterCTF2018/morty_talks/morty_talks_files.zip) you can have a view to the file we used for the challenge.
+[Here](/assets/writeups/OtterCTF2018/morty_talks/morty_talks_files.zip) you can have a view to the file we used for the challenge.
 
 By decoding all the messages we obtain the flag:  ```CTF{L0ng_L!v3_Ev!l_M0rtY}```.

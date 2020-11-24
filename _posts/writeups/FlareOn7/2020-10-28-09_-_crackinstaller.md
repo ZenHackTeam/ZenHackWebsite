@@ -18,13 +18,13 @@ The first thing done was to setup an environment to analyze the behavior of the 
 
 `HKEY_CLASSES_ROOT\CLSID\{CEEACC6E-CCB2-4C4F-BCF6-D2176037A9A7}`
 
-![COM register](/images/writeups/FlareOn7/crackinstaller/com.png)
+![COM register](/assets/writeups/FlareOn7/crackinstaller/com.png)
 
 This register refers to a COM object which implementation could be found in the dll pointed by the key `InProcServer32\Default`.
 
 Furthermore, there is also a `Config` key containing two subkeys _Flag_ and _Password_.
 
-![Flag and Password keys](/images/writeups/FlareOn7/crackinstaller/flag_pwd_reg.png)
+![Flag and Password keys](/assets/writeups/FlareOn7/crackinstaller/flag_pwd_reg.png)
 
 The `credHelper.dll` exposes two interfaces, one it's the most generic one `IUnkown` while the other one is not provided. By looking at the objects in the executable containing the function pointers of the interfaces, can be inferred that there are other 2 functions.
 
@@ -48,7 +48,7 @@ Debugging a driver needs to enter in kernel debugging by putting the VM in Test 
 * `bp <base_driver_address> + <offset_to_the_entrypoint>` : this will put a breakpoint to the first instruction of the entrypoint
 * `g` : continue the execution until it encounters the breakpoint set before
 
-![WinDbg Driver Debugging](/images/writeups/FlareOn7/crackinstaller/windbg.png)
+![WinDbg Driver Debugging](/assets/writeups/FlareOn7/crackinstaller/windbg.png)
 
 Following the execution of the driver will jump back to `crackinstaller.exe` at offset 0x2a10. By debugging carefully this part of the execution the string `H@n $h0t FiRst!` show up in memory after some decryptions.
 

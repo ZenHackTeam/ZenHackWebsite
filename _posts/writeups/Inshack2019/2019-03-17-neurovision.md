@@ -92,6 +92,6 @@ plt.show()
 ```
 Some `skimage` magic for showing the weights and here it is the flag!
 
-![just HERE](/images/writeups/Inshack2019/neurovision/flag.png)
+![just HERE](/assets/writeups/Inshack2019/neurovision/flag.png)
 
-You can find all the files of tis challenge [HERE](/downloads/writeups/Inshack2019/neurovision/files.zip).
+You can find all the files of tis challenge [HERE](/assets/writeups/Inshack2019/neurovision/files.zip).

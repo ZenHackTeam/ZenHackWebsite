@@ -16,14 +16,14 @@ How?
 
 That's the core of the last class: **Wireshark Network Analysis**.
 
-[Enrico Russo (enriquez)](https://csec.it/people/enrico_russo) explains how to master this fantastic tool, named [Wireshark](https://wireshark.org). 
+[Enrico Russo (enriquez)](https://csec.it/people/enrico_russo) explains how to master this fantastic tool, named [Wireshark](https://wireshark.org).
 
 It can be easily used to analyze each packet that passes through the connected network card in [promiscuous mode](https://en.wikipedia.org/wiki/Promiscuous_mode).
 
 More important, given a list of packets captured somehow, it gives the user the ability to open it and search for useful information.
 It's like playing the part of a detective (or a thief, just to be clear).
 
-This class concludes this cycle of ZenHack meeting! 
+This class concludes this cycle of ZenHack meeting!
 [Boeing CTF](http://csec.it/events/boeing-ctf/index) will take place on February 5th: you can still [enroll here](https://dibris.aulaweb.unige.it/course/view.php?id=1168).
 
 It was a pleasure having all of you during our lessons! Hope to see you in the future.
@@ -33,26 +33,26 @@ Stay tuned and happy hacking to everyone! ;-)
 
 `Ao(mgHZs1EATMNnEbf#rF'ig'FC/WuEaN[%CLqd4I/` ^ > ^
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/transport_layer.jpg "TCP/UDP")
+![alt text](/assets/news/wireshark/transport_layer.jpg "TCP/UDP")
 * What are those things...?
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/tls.jpg "If you don't know TLS...")
+![alt text](/assets/news/wireshark/tls.jpg "If you don't know TLS...")
 * Let's encrypt some data with SSL / TLS.
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/handshake.jpg "I want to talk with you!")
+![alt text](/assets/news/wireshark/handshake.jpg "I want to talk with you!")
 * This is the handshake. Got it?
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/switch.jpg "Everything passes through a switch")
+![alt text](/assets/news/wireshark/switch.jpg "Everything passes through a switch")
 * Switch are very useful devices.
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/mitm.jpg "MITM!")
+![alt text](/assets/news/wireshark/mitm.jpg "MITM!")
 * Man in The Middle, explained by enriquez!
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/example.jpg "Exceuse me, can I talk to you about Wireshark?")
+![alt text](/assets/news/wireshark/example.jpg "Exceuse me, can I talk to you about Wireshark?")
 * enriquez showing how to use Wireshark.
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/flag.jpg "Oh, that is really a flag")
+![alt text](/assets/news/wireshark/flag.jpg "Oh, that is really a flag")
 * Capturing a flag inside network traffic: DONE.
 
-![alt text](/assets/blog_img/2018-01-19-wireshark/behind.jpg "Thank you all!")
+![alt text](/assets/news/wireshark/behind.jpg "Thank you all!")
 * See you soon!
