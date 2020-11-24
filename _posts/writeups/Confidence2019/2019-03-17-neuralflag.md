@@ -12,7 +12,7 @@ layout: writeup
 Another week, another neural CTF to pwn!
 
 We have a model of a pre-trained neural network. This model recognizes the flag as class 1, while everything else is 0.
-As already discussed in the previous write-up (that you can [find here](https://zenhack.it/writeups/UTCTF2019/facesafe/)), we may use the gradient of the model to navigate the input space.
+As already discussed in the previous write-up (that you can [find here](/advml/2019/03/10/facesafe.html)), we may use the gradient of the model to navigate the input space.
 
 But, surprise surprise, things are different!
 
@@ -126,4 +126,4 @@ plt.show()
 ```
 The flag is `p4{nn_is_ez}`
 
-You can find all the code [just HERE](../neuralflag.zip), with the code above and the model.
+You can find all the code [just HERE](/downloads/writeups/Confidence2019/neuralflag/neuralflag.zip), with the code above and the model.

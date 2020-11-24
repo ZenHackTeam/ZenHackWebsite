@@ -4,14 +4,14 @@ ctf: INS'HACK 2019
 challenge: neurovision
 categories: [advml]
 tags: [ ctf, challenge, write-up, machine learning, adversarial ]
-date: 2019-3-17 
+date: 2019-3-17
 layout: writeup
 ---
 Another day, another neural CTF to solve!
 This challenge is pretty straight-forward: a keras model is given as only file of the challenge.
-The first I thought was: 
+The first I thought was:
 
-*Ehi, it's just another gradient descent! Let's try it!*... and **I failed hard**. 
+*Ehi, it's just another gradient descent! Let's try it!*... and **I failed hard**.
 The network doesn't compute anything, it just takes in input a greyscale 68 x 218 image and it outputs a number between 0 and 1.
 Nothing special.
 If you try to apply some gradient descent on the network, the result will be a useless image.
@@ -91,5 +91,7 @@ skimage.io.imshow(weights)
 plt.show()
 ```
 Some `skimage` magic for showing the weights and here it is the flag!
-![just HERE](flag.png)
-You can find all the files of tis challenge [HERE](files.zip).
+
+![just HERE](/images/writeups/Inshack2019/neurovision/flag.png)
+
+You can find all the files of tis challenge [HERE](/downloads/writeups/Inshack2019/neurovision/files.zip).

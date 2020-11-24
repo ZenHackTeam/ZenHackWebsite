@@ -91,3 +91,5 @@ blockquote {
     font-style: italic;
     color: var(--base00);
 }
+
+.writeup-container img { max-width: 100%; }

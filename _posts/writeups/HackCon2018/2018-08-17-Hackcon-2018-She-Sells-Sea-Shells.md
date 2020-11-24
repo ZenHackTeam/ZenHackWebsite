@@ -98,4 +98,4 @@ p.interactive()
 
 And it works ;) !
 
-![placeholder](https://ringr0p.github.io/images/hackcon2018-4-flag.png)
+![placeholder](/images/writeups/HackCon2018/she_sells_sea_shells/flag.png)
