@@ -27,7 +27,7 @@ This is the crucial point of this class: it is easily possible to open an applic
 This pipeline produces a brand-new application, which could probably behave differently in respect to the original one.
 Aren't you satisfied yet?
 
-It's time to dirty your hands! [Here](/assets/news/android_part1/17-11-24.apk) you can download a simple .apk file, crafted by packmad himself.
+It's time to dirty your hands! [Here](/assets/news/android_part1/17-11-24.zip) you can download a simple .apk file, crafted by packmad himself.
 
 Using [apk-tools](https://ibotpeaches.github.io/Apktool/) you can decompile it and edit the code... and do very very mean things.
 
