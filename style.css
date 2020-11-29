@@ -21,6 +21,19 @@
   --zx2: #f6ce17;
   --zx3: #89c541;
   --zx4: #0d75bc;
+  
+  --rainbow1: #238647;
+  --rainbow2: #2F9B47;
+  --rainbow3: #62B64F;
+  --rainbow4: #89CC53;
+  --rainbow5: #3DB8AD;
+  --rainbow6: #3394D7;
+  --rainbow7: #2872BC;
+  --rainbow8: #1D5C84;
+  --rainbow9: #993233;
+  --rainbow10: #E13030;
+  --rainbow11: #F28825;
+  --rainbow12: #F5C836;
 }
 
 
@@ -57,16 +70,16 @@ a:visited {
 
 
 .badge { color: #ffffff; }
-.badge-web      { background-color: #FF0000 !important; }
-.badge-crypto   { background-color: #FF7F00 !important; }
-.badge-rev      { background-color: #00AAAA !important; }
-.badge-pwn      { background-color: #89c541 !important; }
-.badge-network  { background-color: #0000FF !important; }
-.badge-ppc      { background-color: #2E2B5F !important; }
-.badge-forensics{ background-color: #8B00FF !important; }
-.badge-advml    { background-color: #ffc0cb !important; }
-.badge-guessing { background-color: #000000 !important; }
-.badge-misc     { background-color: #000000 !important; }
+.badge-web       { background-color: var(--rainbow1) !important; }
+.badge-crypto    { background-color: var(--rainbow2) !important; }
+.badge-rev       { background-color: var(--rainbow3) !important; }
+.badge-pwn       { background-color: var(--rainbow4) !important; }
+.badge-network   { background-color: var(--rainbow5) !important; }
+.badge-ppc       { background-color: var(--rainbow6) !important; }
+.badge-forensics { background-color: var(--rainbow7) !important; }
+.badge-advml     { background-color: var(--rainbow8) !important; }
+.badge-guessing  { background-color: var(--rainbow9) !important; }
+.badge-misc      { background-color: var(--rainbow10) !important; }
 
 .text-pos1 { color: gold !important; }
 .text-pos2 { color: silver !important; }
