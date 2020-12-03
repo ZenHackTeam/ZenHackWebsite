@@ -28,8 +28,8 @@ Here is the full calendar:
 - 11/11/2020 - Cryptography II
 - 18/11/2020 - Binary Analysis I
 - 25/11/2020 - Binary Analysis II
-- 2/12/2020 - CTF Rehearsal
-- **9/12/2020 - CTF Contest @ UNIGE**
+- 9/12/2020 - CTF Rehearsal
+- **16/12/2020 - CTF Contest @ UNIGE**
 
 **Advanced Cybersecurity Training**
 
