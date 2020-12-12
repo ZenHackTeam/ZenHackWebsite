@@ -16,9 +16,9 @@
     {"name": "Giovanni Minotti",    "nickname": "Giotino",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["web"]},
     {"name": "Francesco Pagano",    "nickname": "X3no21",       "description": "Research Fellow @ DIBRIS",                                      "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Francesco Picasso",   "nickname": "dfirfpi",      "description": "CTO @ Reality Net",                                             "link": "#",                            "ctf": ["forensics"]},
-    {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "Student @ UniGe",                                               "link": "#",                            "ctf": [""]},
+    {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Alessio Ravera",      "nickname": "alerave96",    "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Michele Salvo",       "nickname": "CaptainMich",  "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["hardware"]},
-    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["guessing"]},
+    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["network", "forensics"]},
     {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "Software Security Consultant @ IMQ Minded Security",            "link": "https://avalz.it",             "ctf": ["web"]}
 ]
