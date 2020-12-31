@@ -97,7 +97,7 @@ menu: ctfs
         <!-- Mobile -->
         {% for ctf in site.data.ctf[year] %}
         <div class="col-12 d-block d-lg-none text-center mt-3">
-            <span class="text-monospace">{{ctf.from}} - {{ctf.to}}</span>
+            <span class="text-monospace">{% if ctf.from != ctf.to %}{{ctf.from}} - {{ctf.to}}{% else %}{{ ctf.from }}{% endif %}</span>
         </div>
         <div class="col-12 d-block d-lg-none text-center">
             <a href="{{ctf.link}}">{{ctf.name}}</a>
