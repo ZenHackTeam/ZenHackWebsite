@@ -22,6 +22,6 @@
     {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "PhD Student @ UniGe",                                           "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Alessio Ravera",      "nickname": "alerave96",    "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Michele Salvo",       "nickname": "CaptainMich",  "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["hardware"]},
-    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["network", "forensics"]},
+    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["guessing"]},
     {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "Software Security Consultant @ IMQ Minded Security",            "link": "https://avalz.it",             "ctf": ["web"]}
 ]
