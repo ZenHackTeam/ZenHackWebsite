@@ -61,7 +61,16 @@ menu: ctfs
     </div>
     {% endfor %}
 
-    {% assign years = "2020|2019|2018|2017" | split: "|" %}
+    {% assign years_s = "" %}
+    {% for x in site.data.ctf %}
+        {% if forloop.first == false %}
+            {% assign years_s = years_s | append: "|" | append: x[0] %}
+        {% else %}
+            {% assign years_s = years_s | append: x[0] %}
+        {% endif %}
+    {% endfor %}
+    {% assign years = years_s | split: "|" %}
+
     {% for year in years %}
 
     <div class="row justify-content-center mt-4">
