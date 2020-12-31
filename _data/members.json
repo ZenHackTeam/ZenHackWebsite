@@ -1,6 +1,7 @@
 [
     
     {"name": "Simone Aonzo",        "nickname": "packmad",      "description": "PostDoc @ EURECOM",                                             "link": "https://simoneaonzo.it/",      "ctf": ["rev", "pwn"]},
+    {"name": "Alessandro Arata",    "nickname": "Heyo",         "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Andrea Basso",        "nickname": "r0gu3",        "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "crypto"]},
     {"name": "Andrea Canepa",       "nickname": "A_725_K",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "forensics"]},
     {"name": "Emilio Cafè Nunes",   "nickname": "shinil35",     "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["web", "ppc"]},
@@ -14,6 +15,7 @@
     {"name": "Enrico Russo",        "nickname": "enriquez",     "description": "PhD student @ DIBRIS",                                          "link": "#",                            "ctf": ["network"]},
     {"name": "Lorenzo Maffia",      "nickname": "maff1t",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Giovanni Minotti",    "nickname": "Giotino",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["web"]},
+    {"name": "Davide Orengo",       "nickname": "dadigno",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["hardware"]},
     {"name": "Francesco Pagano",    "nickname": "X3no21",       "description": "Research Fellow @ DIBRIS",                                      "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Francesco Picasso",   "nickname": "dfirfpi",      "description": "CTO @ Reality Net",                                             "link": "#",                            "ctf": ["forensics"]},
     {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "PhD Student @ UniGe",                                           "link": "#",                            "ctf": ["rev", "pwn"]},
