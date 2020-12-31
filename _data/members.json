@@ -8,6 +8,7 @@
     {"name": "Luca Demetrio",       "nickname": "zangobot",     "description": "PhD student @ DIBRIS",                                          "link": "#",                            "ctf": ["advml", "rev"]},
     {"name": "Gaspare Ferraro",     "nickname": "GaspareG",     "description": "Student @ UniPi",                                               "link": "https://gaspa.re",             "ctf": ["crypto", "ppc"]},
     {"name": "Tiziano Firpo",       "nickname": "firpo7",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
+    {"name": "Ivan Gallo",          "nickname": "xhon9",        "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["crypto"]},
     {"name": "Giovanni Lagorio",    "nickname": "zxgio",        "description": "Assistant Professor @ DIBRIS",                                  "link": "#",                            "ctf": ["rev", "pwn"]},
     {"name": "Lorenzo Leonardini",  "nickname": "pianka",       "description": "Student @ UniPi",                                               "link": "https://leonardini.dev",       "ctf": ["web", "ppc"]},
     {"name": "Giacomo Longo",       "nickname": "g4b1bb097",    "description": "Student @ UniGe",                                               "link": "https://blog.g4b1bb097.dev/",  "ctf": ["web"]},
