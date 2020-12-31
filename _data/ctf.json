@@ -1,5 +1,6 @@
 {
     "2020": [
+        {"from": "26/12/2020", "to": "26/12/2020", "name": "RuCTFE 2020", "link": "https://ctftime.org/event/1178", "position": "7", "teams": "126"},
         {"from": "18/11/2020", "to": "18/11/2020", "name": "Cyber Battle of The Emirates", "link":"https://cyberweek.ae/2020/cboe/", "position": "1", "teams": "16"},
         {"from": "14/11/2020", "to": "14/11/2020", "name": "m0leCon CTF 2020", "link":"https://ctftime.org/event/1135", "position": "6", "teams": "276"},
         {"from": "17/10/2020", "to": "17/10/2020", "name": "mHackeCTF - Enterprise Edition", "link":"https://ctftime.org/event/1053", "position": "3", "teams": "55"},
