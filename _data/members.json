@@ -142,29 +142,6 @@
         "twitter": "gabibbo97"
     },
     {
-        "name": "Antonio Ruggia",
-        "nickname": "totoR13",
-        "description": "PhD student @ DIBRIS",
-        "link": "",
-        "ctf": [
-            "crypto",
-            "rev"
-        ],
-        "github": "totoR13",
-        "twitter": ""
-    },
-    {
-        "name": "Enrico Russo",
-        "nickname": "enriquez",
-        "description": "PhD student @ DIBRIS",
-        "link": "",
-        "ctf": [
-            "network"
-        ],
-        "github": "enricorusso",
-        "twitter": ""
-    },
-    {
         "name": "Lorenzo Maffia",
         "nickname": "maff1t",
         "description": "Student @ UniGe",
@@ -244,6 +221,29 @@
         ],
         "github": "",
         "twitter": "alerave96"
+    },
+    {
+        "name": "Antonio Ruggia",
+        "nickname": "totoR13",
+        "description": "PhD student @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "crypto",
+            "rev"
+        ],
+        "github": "totoR13",
+        "twitter": ""
+    },
+    {
+        "name": "Enrico Russo",
+        "nickname": "enriquez",
+        "description": "PhD student @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "network"
+        ],
+        "github": "enricorusso",
+        "twitter": ""
     },
     {
         "name": "Michele Salvo",
