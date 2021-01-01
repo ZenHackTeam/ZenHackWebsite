@@ -132,49 +132,15 @@ menu: home
                     <a href="https://twitter.com/{{member.twitter}}" target="_blank" data-toggle="tooltip"
                         data-placement="right" title="@{{member.twitter}}"><i class="fab fa-twitter"></i></a><br>
                     {% endif %}
+                    {% if member.linkedin and member.linkedin != "" %}
+                    <a href="https://linkedin.com/in/{{member.linkedin}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.linkedin}}"><i class="fab fa-linkedin"></i></a><br>
+                    {% endif %}
                 </div>
             </div>
 
             <div class="w-100 text-center">
-                <h5 class="my-1 mt-3">{{member.name}}</h5>
-                <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
-                <p class="my-1">
-                    {% for category in member.ctf %}
-                    <span class="badge border-white badge-{{category}}">{{category}}</span>
-                    {% endfor %}
-                </p>
-                <p class="my-1">{{member.description}}</p>
-            </div>
-
-        </div>
-
-        <!--
-        <div class="col-12 col-md-3 col-lg-20p d-none d-md-block mt-3">
-
-            <div class="col-12 row align-items-center justify-content-center">
-                <div class="col-1 text-center">
-                </div>
-                <div class="col-10 text-center">
-                    <img src="images/members/{{member.nickname}}.jpg"
-                        class="text-center rounded w-75 h-auto border border-white">
-                </div>
-                <div class="col-1 text-center">
-                    {% if member.link and member.link != "" %}
-                    <a href="{{member.link}}" target="_blank" data-toggle="tooltip" data-placement="right"
-                        title="{{member.link}}"><i class="fas fa-link"></i></a><br>
-                    {% endif %}
-                    {% if member.github and member.github != "" %}
-                    <a href="https://github.com/{{member.github}}" target="_blank" data-toggle="tooltip"
-                        data-placement="right" title="@{{member.github}}"><i class="fab fa-github"></i></a><br>
-                    {% endif %}
-                    {% if member.twitter and member.twitter != "" %}
-                    <a href="https://twitter.com/{{member.twitter}}" target="_blank" data-toggle="tooltip"
-                        data-placement="right" title="@{{member.twitter}}"><i class="fab fa-twitter"></i></a><br>
-                    {% endif %}
-                </div>
-            </div>
-            <div class="col-12 row align-items-center justify-content-center">
-                <h5 class="my-1 mt-3">{{member.name}}</h5>
+                <h5 class="my-1 mt-2">{{member.name}}</h5>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
                     {% for category in member.ctf %}
@@ -184,7 +150,6 @@ menu: home
                 <p class="my-1">{{member.description}}</p>
             </div>
         </div>
-        -->
 
         <!-- Mobile -->
         <div class="col-12 d-flex d-md-none align-items-center justify-content-center mt-3">
