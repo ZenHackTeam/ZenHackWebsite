@@ -1,27 +1,281 @@
 [
-    
-    {"name": "Simone Aonzo",        "nickname": "packmad",      "description": "PostDoc @ EURECOM",                                             "link": "https://simoneaonzo.it/",      "ctf": ["rev", "pwn"]},
-    {"name": "Alessandro Arata",    "nickname": "Heyo",         "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Andrea Basso",        "nickname": "r0gu3",        "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "crypto"]},
-    {"name": "Andrea Canepa",       "nickname": "A_725_K",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "forensics"]},
-    {"name": "Emilio Cafè Nunes",   "nickname": "shinil35",     "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["web", "ppc"]},
-    {"name": "Luca Demetrio",       "nickname": "zangobot",     "description": "PhD student @ DIBRIS",                                          "link": "#",                            "ctf": ["advml", "rev"]},
-    {"name": "Gaspare Ferraro",     "nickname": "GaspareG",     "description": "Student @ UniPi",                                               "link": "https://gaspa.re",             "ctf": ["crypto", "ppc"]},
-    {"name": "Tiziano Firpo",       "nickname": "firpo7",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Ivan Gallo",          "nickname": "xhon9",        "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["crypto"]},
-    {"name": "Giovanni Lagorio",    "nickname": "zxgio",        "description": "Assistant Professor @ DIBRIS",                                  "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Lorenzo Leonardini",  "nickname": "pianka",       "description": "Student @ UniPi",                                               "link": "https://leonardini.dev",       "ctf": ["web", "ppc"]},
-    {"name": "Giacomo Longo",       "nickname": "g4b1bb097",    "description": "Student @ UniGe",                                               "link": "https://blog.g4b1bb097.dev/",  "ctf": ["web"]},
-    {"name": "Antonio Ruggia",      "nickname": "totoR13",      "description": "PhD student @ DIBRIS",                                          "link": "#",                            "ctf": ["crypto", "rev"]},
-    {"name": "Enrico Russo",        "nickname": "enriquez",     "description": "PhD student @ DIBRIS",                                          "link": "#",                            "ctf": ["network"]},
-    {"name": "Lorenzo Maffia",      "nickname": "maff1t",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Giovanni Minotti",    "nickname": "Giotino",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["web"]},
-    {"name": "Davide Orengo",       "nickname": "dadigno",      "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["hardware"]},
-    {"name": "Francesco Pagano",    "nickname": "X3no21",       "description": "Research Fellow @ DIBRIS",                                      "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Francesco Picasso",   "nickname": "dfirfpi",      "description": "CTO @ Reality Net",                                             "link": "#",                            "ctf": ["forensics"]},
-    {"name": "Marco Rando",         "nickname": "Akatsuki96",   "description": "PhD Student @ UniGe",                                           "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Alessio Ravera",      "nickname": "alerave96",    "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["rev", "pwn"]},
-    {"name": "Michele Salvo",       "nickname": "CaptainMich",  "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["hardware"]},
-    {"name": "Luigi Sciolla",       "nickname": "killua",       "description": "Student @ UniGe",                                               "link": "#",                            "ctf": ["guessing"]},
-    {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "Software Security Consultant @ IMQ Minded Security",            "link": "https://avalz.it",             "ctf": ["web"]}
+    {
+        "name": "Simone Aonzo",
+        "nickname": "packmad",
+        "description": "PostDoc @ EURECOM",
+        "link": "https://simoneaonzo.it/",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "packmad",
+        "twitter": "packm4d"
+    },
+    {
+        "name": "Alessandro Arata",
+        "nickname": "Heyo",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Andrea Basso",
+        "nickname": "r0gu3",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "rev",
+            "crypto"
+        ],
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Andrea Canepa",
+        "nickname": "A_725_K",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "rev",
+            "forensics"
+        ],
+        "github": "A-725-K",
+        "twitter": ""
+    },
+    {
+        "name": "Emilio Cafè Nunes",
+        "nickname": "shinil35",
+        "description": "Student @ UniGe",
+        "link": "https://emilio.cafe/",
+        "ctf": [
+            "web",
+            "ppc"
+        ],
+        "github": "shinil35",
+        "twitter": "shinil35"
+    },
+    {
+        "name": "Luca Demetrio",
+        "nickname": "zangobot",
+        "description": "PhD student @ DIBRIS",
+        "link": "https://csec.it/people/luca_demetrio/",
+        "ctf": [
+            "advml",
+            "rev"
+        ],
+        "github": "zangobot",
+        "twitter": "zangobot"
+    },
+    {
+        "name": "Gaspare Ferraro",
+        "nickname": "GaspareG",
+        "description": "Student @ UniPi",
+        "link": "https://gaspa.re",
+        "ctf": [
+            "crypto",
+            "ppc"
+        ],
+        "github": "GaspareG",
+        "twitter": "GaspareFerraro"
+    },
+    {
+        "name": "Tiziano Firpo",
+        "nickname": "firpo7",
+        "description": "Student @ UniGe",
+        "link": "https://firpo.me/",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "firpo7",
+        "twitter": "Firpo7_"
+    },
+    {
+        "name": "Ivan Gallo",
+        "nickname": "xhon9",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "crypto"
+        ],
+        "github": "xhon9",
+        "twitter": ""
+    },
+    {
+        "name": "Giovanni Lagorio",
+        "nickname": "zxgio",
+        "description": "Assistant Professor @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "zxgio",
+        "twitter": "zxgio"
+    },
+    {
+        "name": "Lorenzo Leonardini",
+        "nickname": "pianka",
+        "description": "Student @ UniPi",
+        "link": "https://leonardini.dev",
+        "ctf": [
+            "web",
+            "ppc"
+        ],
+        "github": "LorenzoLeonardini",
+        "twitter": "_lorenzo_leo"
+    },
+    {
+        "name": "Giacomo Longo",
+        "nickname": "g4b1bb097",
+        "description": "Student @ UniGe",
+        "link": "https://blog.g4b1bb097.dev/",
+        "ctf": [
+            "web"
+        ],
+        "github": "gabibbo97",
+        "twitter": "gabibbo97"
+    },
+    {
+        "name": "Antonio Ruggia",
+        "nickname": "totoR13",
+        "description": "PhD student @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "crypto",
+            "rev"
+        ],
+        "github": "totoR13",
+        "twitter": ""
+    },
+    {
+        "name": "Enrico Russo",
+        "nickname": "enriquez",
+        "description": "PhD student @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "network"
+        ],
+        "github": "enricorusso",
+        "twitter": ""
+    },
+    {
+        "name": "Lorenzo Maffia",
+        "nickname": "maff1t",
+        "description": "Student @ UniGe",
+        "link": "http://profile.maff1t.com/",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "Maff1t",
+        "twitter": "Maff1t"
+    },
+    {
+        "name": "Giovanni Minotti",
+        "nickname": "Giotino",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "web"
+        ],
+        "github": "Giotino",
+        "twitter": "giovanniminotti"
+    },
+    {
+        "name": "Davide Orengo",
+        "nickname": "dadigno",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "hardware"
+        ],
+        "github": "dadigno",
+        "twitter": ""
+    },
+    {
+        "name": "Francesco Pagano",
+        "nickname": "X3no21",
+        "description": "Research Fellow @ DIBRIS",
+        "link": "",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "X3no21",
+        "twitter": ""
+    },
+    {
+        "name": "Francesco Picasso",
+        "nickname": "dfirfpi",
+        "description": "CTO @ Reality Net",
+        "link": "https://blog.digital-forensics.it/",
+        "ctf": [
+            "forensics"
+        ],
+        "github": "dfirfpi",
+        "twitter": "dfirfpi"
+    },
+    {
+        "name": "Marco Rando",
+        "nickname": "Akatsuki96",
+        "description": "PhD Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "Akatsuki96",
+        "twitter": ""
+    },
+    {
+        "name": "Alessio Ravera",
+        "nickname": "alerave96",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "rev",
+            "pwn"
+        ],
+        "github": "",
+        "twitter": "alerave96"
+    },
+    {
+        "name": "Michele Salvo",
+        "nickname": "CaptainMich",
+        "description": "Student @ UniGe",
+        "link": "https://captainmich.github.io/",
+        "ctf": [
+            "hardware"
+        ],
+        "github": "CaptainMich",
+        "twitter": "_CaptainMich"
+    },
+    {
+        "name": "Luigi Sciolla",
+        "nickname": "killua",
+        "description": "Student @ UniGe",
+        "link": "",
+        "ctf": [
+            "guessing"
+        ],
+        "github": "Killuaa27",
+        "twitter": "LSciolla"
+    },
+    {
+        "name": "Andrea Valenza",
+        "nickname": "avalz",
+        "description": "Software Security Consultant @ IMQ Minded Security",
+        "link": "https://avalz.it",
+        "ctf": [
+            "web"
+        ],
+        "github": "AvalZ",
+        "twitter": "AvalZ_"
+    }
 ]

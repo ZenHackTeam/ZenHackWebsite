@@ -21,11 +21,13 @@ menu: home
 
     <div class="row justify-content-center mt-3">
         <div class="col-12 col-lg-10">
-            <p><a href="https://ctftime.org/team/37768">ZenHack</a> is a Zena-based CTF & cybersecurity Team founded in 2017 by a group of students and
+            <p><a href="https://ctftime.org/team/37768">ZenHack</a> is a Zena-based CTF & cybersecurity Team founded in
+                2017 by a group of students and
                 researchers interested in cybersecurity.
             </p>
             <p>
-                The team is located in <a href="https://en.wikipedia.org/wiki/Genoa">Genoa</a> (Genova in Italian), Italy,
+                The team is located in <a href="https://en.wikipedia.org/wiki/Genoa">Genoa</a> (Genova in Italian),
+                Italy,
                 and is hosted by the Department of Informatics, Bioengineering, Robotics and Systems Engineering (<a
                     href="https://www.dibris.unige.it/">DIBRIS</a>) of the <a href="https://unige.it/it/">University of
                     Genoa</a>.
@@ -48,8 +50,10 @@ menu: home
                 cybersecurity for highschool and university students.
             </p>
 
-            <p>If you want to get in touch with us you can write us an email at <a href="mailto:info@zenhack.team">info@zenhack.team</a> or through one of our social networks below.</p>
-            
+            <p>If you want to get in touch with us you can write us an email at <a
+                    href="mailto:info@zenhack.team">info@zenhack.team</a> or through one of our social networks below.
+            </p>
+
             <p>The faculty point of contact is <a href="http://www.dibris.unige.it/armando-alessandro">Alessandro
                     Armando</a> (<a href="http://csec.it">Computer Security Laboratory</a>).</p>
         </div>
@@ -105,13 +109,71 @@ menu: home
 
         {% for member in site.data.members %}
 
-        <div class="col-md-3 d-none d-md-block align-items-center justify-content-center mt-3">
+        <!-- Desktop layout -->
+        <div class="col-12 col-md-3 col-lg-20p d-none d-md-block align-items-center justify-content-center mt-3">
 
-            <div class="col-12 text-center">
-                <img src="images/members/{{member.nickname}}.jpg"
+            <div class="w-100 text-center row align-items-center justify-content-center text-center m-0">
+
+                <div class="p-0 col-1"></div>
+                <div class="p-0 col-10">
+                    <img src="images/members/{{member.nickname}}.jpg"
                     class="text-center rounded w-75 h-auto border border-white">
+                </div>
+                <div class="p-0 col-1">
+                    {% if member.link and member.link != "" %}
+                    <a href="{{member.link}}" target="_blank" data-toggle="tooltip" data-placement="right"
+                        title="{{member.link}}"><i class="fas fa-link"></i></a><br>
+                    {% endif %}
+                    {% if member.github and member.github != "" %}
+                    <a href="https://github.com/{{member.github}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.github}}"><i class="fab fa-github"></i></a><br>
+                    {% endif %}
+                    {% if member.twitter and member.twitter != "" %}
+                    <a href="https://twitter.com/{{member.twitter}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.twitter}}"><i class="fab fa-twitter"></i></a><br>
+                    {% endif %}
+                </div>
             </div>
-            <div class="col-12 text-center">
+
+            <div class="w-100 text-center">
+                <h5 class="my-1 mt-3">{{member.name}}</h5>
+                <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+                <p class="my-1">
+                    {% for category in member.ctf %}
+                    <span class="badge border-white badge-{{category}}">{{category}}</span>
+                    {% endfor %}
+                </p>
+                <p class="my-1">{{member.description}}</p>
+            </div>
+
+        </div>
+
+        <!--
+        <div class="col-12 col-md-3 col-lg-20p d-none d-md-block mt-3">
+
+            <div class="col-12 row align-items-center justify-content-center">
+                <div class="col-1 text-center">
+                </div>
+                <div class="col-10 text-center">
+                    <img src="images/members/{{member.nickname}}.jpg"
+                        class="text-center rounded w-75 h-auto border border-white">
+                </div>
+                <div class="col-1 text-center">
+                    {% if member.link and member.link != "" %}
+                    <a href="{{member.link}}" target="_blank" data-toggle="tooltip" data-placement="right"
+                        title="{{member.link}}"><i class="fas fa-link"></i></a><br>
+                    {% endif %}
+                    {% if member.github and member.github != "" %}
+                    <a href="https://github.com/{{member.github}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.github}}"><i class="fab fa-github"></i></a><br>
+                    {% endif %}
+                    {% if member.twitter and member.twitter != "" %}
+                    <a href="https://twitter.com/{{member.twitter}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.twitter}}"><i class="fab fa-twitter"></i></a><br>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 row align-items-center justify-content-center">
                 <h5 class="my-1 mt-3">{{member.name}}</h5>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
@@ -122,14 +184,16 @@ menu: home
                 <p class="my-1">{{member.description}}</p>
             </div>
         </div>
+        -->
 
+        <!-- Mobile -->
         <div class="col-12 d-flex d-md-none align-items-center justify-content-center mt-3">
 
             <div class="col-3 text-center">
                 <img src="images/members/{{member.nickname}}.jpg"
                     class="text-center rounded w-100 h-auto border border-white">
             </div>
-            <div class="col-9 text-left">
+            <div class="col-8 text-left">
                 <h5 class="my-1 mt-3">{{member.name}}</h5>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
@@ -138,6 +202,22 @@ menu: home
                     {% endfor %}
                 </p>
                 <p class="my-1">{{member.description}}</p>
+            </div>
+            <div class="col-1 text-left">
+                <div class="float-right">
+                    {% if member.link and member.link != "" %}
+                    <a href="{{member.link}}" target="_blank" data-toggle="tooltip" data-placement="right"
+                        title="{{member.link}}"><i class="fas fa-link"></i></a><br>
+                    {% endif %}
+                    {% if member.github and member.github != "" %}
+                    <a href="https://github.com/{{member.github}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.github}}"><i class="fab fa-github"></i></a><br>
+                    {% endif %}
+                    {% if member.twitter and member.twitter != "" %}
+                    <a href="https://twitter.com/{{member.twitter}}" target="_blank" data-toggle="tooltip"
+                        data-placement="right" title="@{{member.twitter}}"><i class="fab fa-twitter"></i></a><br>
+                    {% endif %}
+                </div>
             </div>
         </div>
 
@@ -175,11 +255,20 @@ menu: home
             <div class="text-zx4">
                 <h3 class="text-center"><i class="far fa-newspaper"></i> Articles about ZenHack</h3>
                 <ul class="list-unstyled text-center">
-                    <li><a href="https://life.unige.it/zenhack-il-team-di-cybersecurity-di-unige-vince-la-cyber-battle-emirates">ZenHack, il team di cybersecurity di UniGe, vince la Cyber Battle of the Emirates</a></li>
-                    <li><a href="https://life.unige.it/unige-leonardo">Leonardo-UniGe Cybersecurity Scholarship Program</a>
-                    <li><a href="https://life.unige.it/capture-flag-gli-studenti-del-nostro-ateneo-si-sfidano-sulla-cybersecurity">Capture the Flag! Gli studenti del nostro Ateneo si sfidano sulla Cybersecurity</a></li>
-                    <li><a href="https://www.primocanale.it/notizie/l-universit-di-genova-cerca-cacciatori-di-hacker-per-la-nazionale-dei-cyber-defender-193574.html?id=193574">Cyberchallenge.IT: UniGe prepara gli esperti in sicurezza informatica</a></li>
-                    <li><a href="http://www.ilsecoloxix.it/p/genova/2018/01/08/ASmhOiQM-nazionale_universita_cacciatori.shtml">Il Secolo XIX - Genova, l’Università cerca “cacciatori” di hacker per la Nazionale</a></li>
+                    <li><a
+                            href="https://life.unige.it/zenhack-il-team-di-cybersecurity-di-unige-vince-la-cyber-battle-emirates">ZenHack,
+                            il team di cybersecurity di UniGe, vince la Cyber Battle of the Emirates</a></li>
+                    <li><a href="https://life.unige.it/unige-leonardo">Leonardo-UniGe Cybersecurity Scholarship
+                            Program</a>
+                    <li><a
+                            href="https://life.unige.it/capture-flag-gli-studenti-del-nostro-ateneo-si-sfidano-sulla-cybersecurity">Capture
+                            the Flag! Gli studenti del nostro Ateneo si sfidano sulla Cybersecurity</a></li>
+                    <li><a
+                            href="https://www.primocanale.it/notizie/l-universit-di-genova-cerca-cacciatori-di-hacker-per-la-nazionale-dei-cyber-defender-193574.html?id=193574">Cyberchallenge.IT:
+                            UniGe prepara gli esperti in sicurezza informatica</a></li>
+                    <li><a
+                            href="http://www.ilsecoloxix.it/p/genova/2018/01/08/ASmhOiQM-nazionale_universita_cacciatori.shtml">Il
+                            Secolo XIX - Genova, l’Università cerca “cacciatori” di hacker per la Nazionale</a></li>
                 </ul>
             </div>
         </div>
