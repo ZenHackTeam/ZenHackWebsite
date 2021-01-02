@@ -61,8 +61,8 @@ menu: learning
                             <span class="badge badge-success badge-pill">
                                 {{forloop.index}}/{{course.lessons | size}}
                             </span>
-                            <a href="{{lesson.download}}" class="mx-1 text-decoration-none" data-toggle="tooltip"
-                                data-placement="top" title="download">
+                            <a href="{{lesson.download}}" target="_blank" class="mx-1 text-decoration-none"
+                                data-toggle="tooltip" data-placement="top" title="download">
                                 <span class="badge badge-pill badge-primary">
                                     <i class="fas fa-file-download"></i> slides
                                 </span>
@@ -72,6 +72,24 @@ menu: learning
                     </span>
 
                     <!-- Mobile layout -->
+                    <span class="d-block d-lg-none text-center">
+                        <a href="{{lesson.video}}"> {{lesson.title}}</a>
+                        <br>
+                        <span class="badge badge-success badge-pill">
+                            {{forloop.index}}/{{course.lessons | size}}
+                        </span>
+                        <span class="badge badge-info badge-pill" data-toggle="tooltip" data-placement="top"
+                            title="{{ lesson.author }}">
+                            <i class="fas fa-user"></i> {{ lesson.author }}
+                        </span>
+                        <a href="{{lesson.download}}" target="_blank" class="mx-1 text-decoration-none"
+                            data-toggle="tooltip" data-placement="top" title="download">
+                            <span class="badge badge-pill badge-primary">
+                                <i class="fas fa-file-download"></i> slides
+                            </span>
+                        </a>
+
+                    </span>
                 </li>
                 {% endfor %}
             </ul>
