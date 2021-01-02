@@ -8,5 +8,6 @@
     "ppc": "fas fa-code",
     "advml": "fas fa-brain",
     "network": "fas fa-network-wired",
-    "guessing": "fas fa-dice"
+    "guessing": "fas fa-dice",
+    "misc": "fas fa-random"
 }
