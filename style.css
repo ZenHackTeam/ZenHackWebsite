@@ -178,8 +178,8 @@ blockquote {
   margin: auto;
 }
 
-@media (min-width: 992px) {
-  .col-lg-20p {
+@media (min-width: 1200px) {
+  .col-xl-20p {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%;
