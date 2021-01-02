@@ -9,7 +9,7 @@ menu: ctf
         <div class="col-12 col-lg-8 text-center">
             <h3 class="text-zx4">{{page.ctf}} - {{page.challenge}}</h3>
             {% for category in page.categories %}
-            <span class="badge border-white badge-{{category}}">{{category}}</span>
+            <span class="badge border-white badge-{{category}}"><i class="{{ site.data.categories[category] }}"></i> {{category}}</span>
             {% endfor %}
 
             <div class="mt-3">

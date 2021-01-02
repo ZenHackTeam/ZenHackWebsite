@@ -1,0 +1,12 @@
+{
+    "crypto": "fas fa-square-root-alt",
+    "rev": "fas fa-backward",
+    "web": "fas fa-globe",
+    "pwn": "fas fa-bomb",
+    "hardware": "fas fa-microchip",
+    "forensics": "fas fa-hdd",
+    "ppc": "fas fa-code",
+    "advml": "fas fa-brain",
+    "network": "fas fa-network-wired",
+    "guessing": "fas fa-dice"
+}
