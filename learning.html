@@ -48,17 +48,30 @@ menu: learning
             <ul class="list-group mt-3">
                 {% for lesson in course.lessons %}
                 <li class="list-group-item bg-base01">
-                    <a href="{{lesson.video}}"> {{lesson.title}}</a>
-                    <span class="float-right">
-                        <span class="badge badge-success badge-pill">
-                            {{forloop.index}}/{{course.lessons | size}}
-                        </span>
-                        <a href="{{lessons.download}}" class="mx-1" data-toggle="tooltip" data-placement="top" title="download">
-                            <span class="badge badge-pill badge-primary">
-                                <i class="fas fa-file-download"></i> slides
+
+                    <!-- Desktop layout -->
+                    <span class="d-none d-lg-block">
+                        <a href="{{lesson.video}}"> {{lesson.title}}</a>
+
+                        <span class="float-right">
+                            <span class="badge badge-info badge-pill" data-toggle="tooltip" data-placement="top"
+                                title="{{ lesson.author }}">
+                                <i class="fas fa-user"></i> {{ lesson.author }}
                             </span>
-                        </a>
+                            <span class="badge badge-success badge-pill">
+                                {{forloop.index}}/{{course.lessons | size}}
+                            </span>
+                            <a href="{{lesson.download}}" class="mx-1 text-decoration-none" data-toggle="tooltip"
+                                data-placement="top" title="download">
+                                <span class="badge badge-pill badge-primary">
+                                    <i class="fas fa-file-download"></i> slides
+                                </span>
+                            </a>
+
+                        </span>
                     </span>
+
+                    <!-- Mobile layout -->
                 </li>
                 {% endfor %}
             </ul>
