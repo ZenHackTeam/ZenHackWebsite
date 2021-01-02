@@ -39,7 +39,7 @@ menu: learning
                 {{ course.description }}
             </div>
 
-            <div class="embed-responsive embed-responsive-16by9 w-100 mt-3">
+            <div class="embed-responsive embed-responsive-16by9 w-100 mt-3 border border-dark shadow">
                 <iframe src="{{ course.playlist }}" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -51,15 +51,14 @@ menu: learning
 
                     <!-- Desktop layout -->
                     <span class="d-none d-lg-block">
-                        <a href="{{lesson.video}}"> {{lesson.title}}</a>
+                        <a href="{{lesson.video}}" target="_blank"> {{lesson.title}}</a>
 
                         <span class="float-right">
-                            <span class="badge badge-info badge-pill" data-toggle="tooltip" data-placement="top"
-                                title="{{ lesson.author }}">
+                            <span class="badge badge-info badge-pill">
                                 <i class="fas fa-user"></i> {{ lesson.author }}
                             </span>
                             <span class="badge badge-success badge-pill">
-                                {{forloop.index}}/{{course.lessons | size}}
+                                <i class="fas fa-list-ol"></i> {{forloop.index}}/{{course.lessons | size}}
                             </span>
                             <a href="{{lesson.download}}" target="_blank" class="mx-1 text-decoration-none"
                                 data-toggle="tooltip" data-placement="top" title="download">
@@ -72,22 +71,28 @@ menu: learning
                     </span>
 
                     <!-- Mobile layout -->
-                    <span class="d-block d-lg-none text-center">
-                        <a href="{{lesson.video}}"> {{lesson.title}}</a>
-                        <br>
-                        <span class="badge badge-success badge-pill">
-                            {{forloop.index}}/{{course.lessons | size}}
-                        </span>
-                        <span class="badge badge-info badge-pill" data-toggle="tooltip" data-placement="top"
-                            title="{{ lesson.author }}">
-                            <i class="fas fa-user"></i> {{ lesson.author }}
-                        </span>
-                        <a href="{{lesson.download}}" target="_blank" class="mx-1 text-decoration-none"
-                            data-toggle="tooltip" data-placement="top" title="download">
-                            <span class="badge badge-pill badge-primary">
-                                <i class="fas fa-file-download"></i> slides
+                    <span class="d-flex d-lg-none row p-0 m-0 align-items-start">
+                        <div class="col-3 text-left">
+                            <span class="badge badge-success badge-pill ">
+                                <i class="fas fa-list-ol"></i> {{forloop.index}}/{{course.lessons | size}}
                             </span>
-                        </a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <span class="badge badge-info badge-pill">
+                                <i class="fas fa-user"></i> {{ lesson.author }}
+                            </span>
+                            <br>
+                            <a href="{{lesson.video}}" target="_blank">{{lesson.title}}</a>
+                            </a>
+                        </div>
+                        <div class="col-3 text-right">
+                            <a href="{{lesson.download}}" target="_blank" class="mx-1 text-decoration-none"
+                                data-toggle="tooltip" data-placement="top" title="download">
+                                <span class="badge badge-pill badge-primary">
+                                    <i class="fas fa-file-download"></i> slides
+                                </span>
+                            </a>
+                        </div>
 
                     </span>
                 </li>
