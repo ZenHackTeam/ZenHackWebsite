@@ -16,6 +16,7 @@
   --blue: #268bd2;
   --cyan: #2aa198;
   --green: #859900;
+  --indigo: #4b0082;
 
   --zx1: #c01d30;
   --zx2: #f6ce17;
@@ -104,7 +105,7 @@ a:visited {
   color: #ffffff;
 }
 .badge-web {
-  background-color: var(--rainbow1) !important;
+  background-color: var(--indigo) !important;
 }
 .badge-rev {
   background-color: var(--rainbow2) !important;
