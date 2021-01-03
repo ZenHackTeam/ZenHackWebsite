@@ -111,7 +111,7 @@ menu: home
 
         <!-- Desktop layout -->
         <div
-            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-20p d-none d-sm-block align-items-center justify-content-center mt-3">
+            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-20p d-none d-sm-block align-items-center justify-content-center mt-3 p-0">
 
             <div class="w-100 text-center row align-items-center justify-content-center text-center m-0">
 
@@ -145,7 +145,7 @@ menu: home
             </div>
 
             <div class="w-100 text-center">
-                <h5 class="my-1 mt-2">{{member.name}}</h5>
+                <p class="my-1 font-weight-bold">{{member.name}}</p>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
                     {% for category in member.ctf %}
@@ -188,7 +188,7 @@ menu: home
                 </div>
             </div>
             <div class="col-7 text-left">
-                <h5 class="my-1">{{member.name}}</h5>
+                <p class="my-1 font-weight-bold">{{member.name}}</p>
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
                     {% for category in member.ctf %}

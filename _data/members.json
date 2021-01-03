@@ -66,8 +66,8 @@
         "link": "https://emilio.cafe/",
         "github": "shinil35",
         "twitter": "shinil35",
-        "linkedin": "",
-        "mail": ""
+        "linkedin": "shinil35",
+        "mail": "emilio@cafenun.es"
     },
     {
         "name": "Luca Demetrio",
@@ -121,7 +121,7 @@
         "link": "",
         "github": "xhon9",
         "twitter": "",
-        "linkedin": "",
+        "linkedin": "ivan-gallo",
         "mail": ""
     },
     {
@@ -150,7 +150,7 @@
         "github": "LorenzoLeonardini",
         "twitter": "_lorenzo_leo",
         "linkedin": "",
-        "mail": ""
+        "mail": "lorenzo@leonardini.dev"
     },
     {
         "name": "Giacomo Longo",
@@ -177,7 +177,7 @@
         "github": "Maff1t",
         "twitter": "Maff1t",
         "linkedin": "",
-        "mail": ""
+        "mail": "lorenzomaffia97@gmail.com"
     },
     {
         "name": "Giovanni Minotti",
@@ -190,7 +190,7 @@
         "github": "Giotino",
         "twitter": "giovanniminotti",
         "linkedin": "",
-        "mail": ""
+        "mail": "giovanni@minotti.net"
     },
     {
         "name": "Davide Orengo",
@@ -229,7 +229,7 @@
         "link": "https://blog.digital-forensics.it/",
         "github": "dfirfpi",
         "twitter": "dfirfpi",
-        "linkedin": "",
+        "linkedin": "francescopicasso/",
         "mail": ""
     },
     {
@@ -244,7 +244,7 @@
         "github": "Akatsuki96",
         "twitter": "",
         "linkedin": "",
-        "mail": ""
+        "mail": "marco.rando0396@gmail.com"
     },
     {
         "name": "Alessio Ravera",
@@ -257,7 +257,7 @@
         "link": "",
         "github": "AlessioRavera",
         "twitter": "alerave96",
-        "linkedin": "",
+        "linkedin": "alessio-ravera-529912167",
         "mail": ""
     },
     {
@@ -272,7 +272,7 @@
         "github": "totoR13",
         "twitter": "",
         "linkedin": "",
-        "mail": ""
+        "mail": "antonio.ruggia@dibris.unige.it"
     },
     {
         "name": "Enrico Russo",
@@ -281,9 +281,9 @@
         "ctf": [
             "network"
         ],
-        "link": "",
+        "link": "https://csec.it/people/enrico_russo/",
         "github": "enricorusso",
-        "twitter": "",
+        "twitter": "springchickenz",
         "linkedin": "",
         "mail": ""
     },
@@ -323,7 +323,7 @@
         "link": "https://avalz.it",
         "github": "AvalZ",
         "twitter": "AvalZ_",
-        "linkedin": "",
-        "mail": ""
+        "linkedin": "andrea-valenza",
+        "mail": "avalenza89@gmail.com"
     }
 ]
