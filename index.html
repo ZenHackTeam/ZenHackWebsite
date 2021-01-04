@@ -149,7 +149,9 @@ menu: home
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
                     {% for category in member.ctf %}
-                    <span class="badge border-white badge-{{category}}"><i class="{{ site.data.categories[category] }}"></i> {{category}}</span>
+                    <span class="badge border-white badge-{{category}}" data-toggle="tooltip" data-placement="top" title="{{site.data.categories.name[category]}}">
+                        <i class="{{ site.data.categories.icons[category] }}"></i> {{category}}
+                    </span>
                     {% endfor %}
                 </p>
                 <p class="my-1">{{member.description}}</p>
@@ -192,7 +194,9 @@ menu: home
                 <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
                 <p class="my-1">
                     {% for category in member.ctf %}
-                    <span class="badge border-white badge-{{category}}"><i class="{{ site.data.categories[category] }}"></i> {{category}}</span>
+                    <span class="badge border-white badge-{{category}}" data-toggle="tooltip" data-placement="right" title="{{site.data.categories.name[category]}}">
+                        <i class="{{ site.data.categories.icons[category] }}"></i> {{category}}
+                    </span>
                     {% endfor %}
                 </p>
                 <p class="my-1">{{member.description}}</p>

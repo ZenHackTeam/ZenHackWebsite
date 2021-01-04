@@ -26,7 +26,9 @@ menu: ctfs
                     </a>
                     <div class="float-right">
                         {% for category in post.categories %}
-                        <span class="badge border-white badge-{{category}}"><i class="{{ site.data.categories[category] }}"></i> {{category}}</span>
+                        <span class="badge border-white badge-{{category}}" data-toggle="tooltip" data-placement="top" title="{{site.data.categories.name[category]}}">
+                            <i class="{{ site.data.categories.icons[category] }}"></i> {{category}}
+                        </span>
                         {% endfor %}
 
                     </div>
@@ -54,7 +56,9 @@ menu: ctfs
         <div class="col-12 text-center">
             {{post.author}} - 
             {% for category in post.categories %}
-            <span class="badge border-white badge-{{category}}"><i class="{{ site.data.categories[category] }}"></i> {{category}}</span>
+            <span class="badge border-white badge-{{category}}" data-toggle="tooltip" data-placement="top" title="{{site.data.categories.name[category]}}">
+                <i class="{{ site.data.categories.icons[category] }}"></i> {{category}}
+            </span>
             {% endfor %}
         </div>
 

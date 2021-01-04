@@ -1,13 +1,28 @@
 {
-    "crypto": "fas fa-square-root-alt",
-    "rev": "fas fa-backward",
-    "web": "fas fa-globe",
-    "pwn": "fas fa-bomb",
-    "hardware": "fas fa-microchip",
-    "forensics": "fas fa-hdd",
-    "ppc": "fas fa-code",
-    "advml": "fas fa-brain",
-    "network": "fas fa-network-wired",
-    "guessing": "fas fa-dice",
-    "misc": "fas fa-random"
+    "icons": {
+        "crypto": "fas fa-square-root-alt",
+        "rev": "fas fa-backward",
+        "web": "fas fa-globe",
+        "pwn": "fas fa-bomb",
+        "hardware": "fas fa-microchip",
+        "forensics": "fas fa-hdd",
+        "ppc": "fas fa-code",
+        "advml": "fas fa-brain",
+        "network": "fas fa-network-wired",
+        "guessing": "fas fa-dice",
+        "misc": "fas fa-random"
+    },
+    "name": {
+        "crypto": "Cryptography",
+        "rev": "Reverse Engineering",
+        "web": "Web Security",
+        "pwn": "Pwning",
+        "hardware": "Hardware Security",
+        "forensics": "Digital Forensics",
+        "ppc": "Professional Programming & Coding",
+        "advml": "Adversarial Machine Learning",
+        "network": "Network Security",
+        "guessing": "Guessing",
+        "misc": "Miscellaneous"
+    }
 }
