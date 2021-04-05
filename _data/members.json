@@ -72,12 +72,12 @@
     {
         "name": "Luca Demetrio",
         "nickname": "zangobot",
-        "description": "PhD student @ DIBRIS",
+        "description": "PostDoc @ UniCa",
         "ctf": [
             "advml",
             "rev"
         ],
-        "link": "https://csec.it/people/luca_demetrio/",
+        "link": "https://zangobot.github.io",
         "github": "zangobot",
         "twitter": "zangobot",
         "linkedin": "",
