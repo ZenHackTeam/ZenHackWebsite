@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Simone Aonzo",
+    "nickname": "packmad",
+    "description": "PostDoc @ EURECOM",
+    "ctf": ["rev", "pwn"],
+    "link": "https://simoneaonzo.it/",
+    "github": "packmad",
+    "twitter": "packm4d",
+    "linkedin": "",
+    "mail": ""
+  },
+  {
+    "name": "Luca Demetrio",
+    "nickname": "zangobot",
+    "description": "PostDoc @ UniCa",
+    "ctf": ["advml", "rev"],
+    "link": "https://zangobot.github.io",
+    "github": "zangobot",
+    "twitter": "zangobot",
+    "linkedin": "luca-demetrio",
+    "mail": ""
+  }
+]

@@ -295,6 +295,184 @@ menu: home
     {% endfor %}
   </div>
 
+  <!-- Members -->
+  <div class="row justify-content-center mt-5 mb-3">
+    <div class="col-12 col-lg-10 border-bottom border-zx3">
+      <h3 class="text-zx3 text-center text-lg-left">
+        <i class="fas fa-user-shield"></i> Former members
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    {% for member in site.data.former_members %}
+
+    <!-- Desktop layout -->
+    <div
+      class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-20p d-none d-sm-block align-items-center justify-content-center mt-3 p-0"
+    >
+      <div
+        class="w-100 text-center row align-items-center justify-content-center text-center m-0"
+      >
+        <div class="p-0 col-1"></div>
+        <div class="p-0 col-10">
+          <img
+            src="images/members/{{member.nickname}}.jpg"
+            class="text-center rounded w-75 h-auto border border-white"
+          />
+        </div>
+        <div class="p-0 col-1">
+          {% if member.link and member.link != "" %}
+          <a
+            href="{{member.link}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="{{member.link}}"
+            ><i class="fas fa-link"></i></a
+          ><br />
+          {% endif %} {% if member.github and member.github != "" %}
+          <a
+            href="https://github.com/{{member.github}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.github}}"
+            ><i class="fab fa-github"></i></a
+          ><br />
+          {% endif %} {% if member.twitter and member.twitter != "" %}
+          <a
+            href="https://twitter.com/{{member.twitter}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.twitter}}"
+            ><i class="fab fa-twitter"></i></a
+          ><br />
+          {% endif %} {% if member.linkedin and member.linkedin != "" %}
+          <a
+            href="https://linkedin.com/in/{{member.linkedin}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.linkedin}}"
+            ><i class="fab fa-linkedin"></i></a
+          ><br />
+          {% endif %} {% if member.mail and member.mail != "" %}
+          <a
+            href="mailto:{{member.mail}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="{{member.mail}}"
+            ><i class="far fa-envelope"></i></a
+          ><br />
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="w-100 text-center">
+        <p class="my-1 font-weight-bold">{{member.name}}</p>
+        <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+        <p class="my-1">
+          {% for category in member.ctf %}
+          <span
+            class="badge border-white badge-{{category}}"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="{{site.data.categories.name[category]}}"
+          >
+            <i class="{{ site.data.categories.icons[category] }}"></i>
+            {{category}}
+          </span>
+          {% endfor %}
+        </p>
+        <p class="my-1">{{member.description}}</p>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div
+      class="col-12 d-flex d-sm-none align-items-center justify-content-center mt-3"
+    >
+      <div class="col-4 text-center">
+        <img
+          src="images/members/{{member.nickname}}.jpg"
+          class="text-center rounded w-100 h-auto border border-white"
+        />
+      </div>
+      <div class="col-1 text-left">
+        <div class="float-right">
+          {% if member.link and member.link != "" %}
+          <a
+            href="{{member.link}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="{{member.link}}"
+            ><i class="fas fa-link"></i></a
+          ><br />
+          {% endif %} {% if member.github and member.github != "" %}
+          <a
+            href="https://github.com/{{member.github}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.github}}"
+            ><i class="fab fa-github"></i></a
+          ><br />
+          {% endif %} {% if member.twitter and member.twitter != "" %}
+          <a
+            href="https://twitter.com/{{member.twitter}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.twitter}}"
+            ><i class="fab fa-twitter"></i></a
+          ><br />
+          {% endif %} {% if member.linkedin and member.linkedin != "" %}
+          <a
+            href="https://linkedin.com/in/{{member.linkedin}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="@{{member.linkedin}}"
+            ><i class="fab fa-linkedin"></i></a
+          ><br />
+          {% endif %} {% if member.mail and member.mail != "" %}
+          <a
+            href="mailto:{{member.mail}}"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="{{member.mail}}"
+            ><i class="far fa-envelope"></i></a
+          ><br />
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-7 text-left">
+        <p class="my-1 font-weight-bold">{{member.name}}</p>
+        <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+        <p class="my-1">
+          {% for category in member.ctf %}
+          <span
+            class="badge border-white badge-{{category}}"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="{{site.data.categories.name[category]}}"
+          >
+            <i class="{{ site.data.categories.icons[category] }}"></i>
+            {{category}}
+          </span>
+          {% endfor %}
+        </p>
+        <p class="my-1">{{member.description}}</p>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
   <!-- Follow -->
   <div class="row justify-content-center mt-5">
     <div class="col-12 col-lg-10 border-bottom border-zx4">

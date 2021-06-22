@@ -1,16 +1,5 @@
 [
   {
-    "name": "Simone Aonzo",
-    "nickname": "packmad",
-    "description": "PostDoc @ EURECOM",
-    "ctf": ["rev", "pwn"],
-    "link": "https://simoneaonzo.it/",
-    "github": "packmad",
-    "twitter": "packm4d",
-    "linkedin": "",
-    "mail": ""
-  },
-  {
     "name": "Alessandro Arata",
     "nickname": "Heyo",
     "description": "Student @ UniGe",
@@ -53,17 +42,6 @@
     "twitter": "shinil35",
     "linkedin": "shinil35",
     "mail": "emilio@cafenun.es"
-  },
-  {
-    "name": "Luca Demetrio",
-    "nickname": "zangobot",
-    "description": "PostDoc @ UniCa",
-    "ctf": ["advml", "rev"],
-    "link": "https://zangobot.github.io",
-    "github": "zangobot",
-    "twitter": "zangobot",
-    "linkedin": "luca-demetrio",
-    "mail": ""
   },
   {
     "name": "Gaspare Ferraro",
